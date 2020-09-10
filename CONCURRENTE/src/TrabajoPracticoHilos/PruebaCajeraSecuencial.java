@@ -5,6 +5,7 @@
  */
 package TrabajoPracticoHilos;
 
+import TrabajoPracticoHilos.Objetos.Cajera;
 import TrabajoPracticoHilos.Objetos.Cliente;
 
 /**

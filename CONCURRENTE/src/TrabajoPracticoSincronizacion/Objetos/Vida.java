@@ -10,7 +10,11 @@ package TrabajoPracticoSincronizacion.Objetos;
  * @author Leo
  */
 public class Vida {
-    private int hpPoints = 100;
+    private int hpPoints;
+
+    public Vida(int hpPoints) {
+        this.hpPoints = hpPoints;
+    }
   
     
     public synchronized int getVida(){

@@ -11,48 +11,25 @@ package TrabajoPracticoSincronizacion.Objetos;
  */
 public class CadenaLetras implements Runnable{
     private Turno indicador;
+    private int turno;
     private char letra;
 
-    public CadenaLetras(Turno indicador, char letra) {
+    public CadenaLetras(Turno indicador, char letra, int turno) {
         this.indicador = indicador;
         this.letra = letra;
+        this.turno = turno;
     }
     
     public void run() {
-        int ronda = 1;
-        try{
-            while (ronda > 0){
-                switch(letra){
-                    case'A':
-                        if (indicador.getTurno() == 0){
-                            System.out.println(letra);
-                            indicador.pasarTurno(1);
-                        }
-                        else{
-                            Thread.sleep(3000);
-                        }
-                        break;
-                    case'B':
-                        if (indicador.getTurno() == 1){
-                            System.out.println(letra + letra);
-                            indicador.pasarTurno(2);
-                        }
-                        else{
-                            Thread.sleep(3000);
-                        }
-                        break;
-                    case'C':
-                        if (indicador.getTurno() == 3){
-                            System.out.println(letra + letra + letra);
-                            indicador.pasarTurno(3);
-                        }
-                        else{
-                            Thread.sleep(3000);
-                        }
-                        break;
+        int ronda = indicador.getTurno();
+        while (ronda > 0){
+            if (indicador.getTurno() == turno && ronda > 0){
+                for(int j = 1; j <= turno; j++){
+                    System.out.println(letra);
                 }
-                ronda = indicador.getRepeticiones();
+                indicador.pasarTurno();
+                ronda--;
             }
-        }catch(InterruptedException e){}
+        }
     }
 }

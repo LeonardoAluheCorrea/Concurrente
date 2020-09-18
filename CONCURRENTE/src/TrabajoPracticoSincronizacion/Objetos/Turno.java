@@ -10,26 +10,25 @@ package TrabajoPracticoSincronizacion.Objetos;
  * @author Leo
  */
 public class Turno {
-    private int turno = 0;
-    private int repeticiones;
+    private int turno = 1;
+    private int rondas;
 
     public Turno(int rondas) {
-        repeticiones = rondas;
+        this.rondas = rondas;
     }
 
-    public synchronized int getRepeticiones() {
-        return repeticiones;
+    public synchronized int getRonda() {
+        return rondas;
     }
     
     public synchronized int getTurno() {
         return turno;
     }
     
-    public synchronized void pasarTurno(int cantidad){
-        turno = turno + cantidad;
-        if (turno >= 6){
-            turno = 0;
-            repeticiones--;
+    public synchronized void pasarTurno(){
+        turno++;
+        if (turno > 3){
+            turno = 1;
         }
     }
 }

@@ -24,20 +24,11 @@ public class ViajeAuto implements Runnable{
         try{
             vehiculo.recorrerDistancia(distancia);
             System.out.println("El auto: " + vehiculo.getModelo() + "  esta yendo a la estacion de servicio");
-            //Tardamos unos segundos en recorrer la distancia hata la estacion de servicio
-            Thread.sleep((long)distancia*1000);
-            System.out.println("El auto: " + vehiculo.getModelo() + " ha llegado a la estacion de servicio");
-            while(!estacion.tieneDisponibilidad()){
-                //Al llegar esperamos a que el surtidor este libre
-                Thread.sleep(1000);
-            }
+            //Tardamos unos segundos en recorrer la distancia hasta la estacion de servicio
+            Thread.sleep((long)distancia * 1000);
+            System.out.println("El auto: " + vehiculo.getModelo() + " ha llegado a la estacion de servicio, espera su turno");
             //Realizamos el proceso de carga
-            estacion.usarSurtidor();
-            System.out.println("El auto: " + vehiculo.getModelo() + " esta llenando el tanque");
-            Thread.sleep(5000);
-            vehiculo.llenarTanque();
-            System.out.println("El auto: " + vehiculo.getModelo() + " ha llenado el tanque, libera el surtidor y se va");
-            estacion.liberarSurtidor();
+            estacion.usarSurtidor(vehiculo);
         }catch(InterruptedException e){}
     }
     

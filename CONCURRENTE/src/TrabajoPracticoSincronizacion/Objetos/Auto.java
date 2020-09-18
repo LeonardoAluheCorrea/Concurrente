@@ -14,7 +14,7 @@ public class Auto extends Vehiculo {
     private double combustibleRestante;
 
     public Auto(String patente, String modelo, double kmFaltantesParaService, String marca) {
-        super(patente, modelo, kmFaltantesParaService, marca);
+        super(patente, modelo, marca);
     }
 
     public Auto(String modelo,double capacidadCombustible) {
@@ -24,7 +24,7 @@ public class Auto extends Vehiculo {
     }
 
     public Auto(double capacidadCombustible, double combustibleRestante, String patente, String modelo, double kmFaltantesParaService, String marca) {
-        super(patente, modelo, kmFaltantesParaService, marca);
+        super(patente, modelo, marca);
         this.capacidadCombustible = capacidadCombustible;
         this.combustibleRestante = combustibleRestante;
     }

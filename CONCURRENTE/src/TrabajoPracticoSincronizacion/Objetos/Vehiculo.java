@@ -12,17 +12,15 @@ package TrabajoPracticoSincronizacion.Objetos;
 public class Vehiculo{
     private String patente;
     private String modelo;
-    private double kmFaltantesParaService;
     private String marca;
 
     public Vehiculo(String modelo) {
         this.modelo = modelo;
     }
     
-    public Vehiculo(String patente, String modelo, double kmFaltantesParaService, String marca) {
+    public Vehiculo(String patente, String modelo, String marca) {
         this.patente = patente;
         this.modelo = modelo;
-        this.kmFaltantesParaService = kmFaltantesParaService;
         this.marca = marca;
     }
 
@@ -40,14 +38,6 @@ public class Vehiculo{
 
     public void setModelo(String modelo) {
         this.modelo = modelo;
-    }
-
-    public double getKmFaltantesParaService() {
-        return kmFaltantesParaService;
-    }
-
-    public void setKmFaltantesParaService(double kmFaltantesParaService) {
-        this.kmFaltantesParaService = kmFaltantesParaService;
     }
 
     public String getMarca() {

@@ -11,7 +11,7 @@ package TrabajoPracticoSincronizacion.Objetos;
  */
 public class CadenaLetras implements Runnable{
     private Turno indicador;
-    char letra;
+    private char letra;
 
     public CadenaLetras(Turno indicador, char letra) {
         this.indicador = indicador;

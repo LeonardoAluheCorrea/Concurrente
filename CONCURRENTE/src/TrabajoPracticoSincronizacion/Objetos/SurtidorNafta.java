@@ -20,12 +20,11 @@ public class SurtidorNafta {
         return disponibilidad;
     }
     
-    public synchronized void usarSurtidor(){
-        disponibilidad = false;
-    }
-    
-    public synchronized void liberarSurtidor(){
-        disponibilidad = true;
+    public synchronized void usarSurtidor(Auto auto)throws InterruptedException{
+        System.out.println("El auto: " + auto.getModelo() + " esta llenando el tanque");
+        Thread.sleep((long)((auto.getCapacidadCombustible() - auto.getCombustibleRestante()) * 100));
+        auto.llenarTanque();
+        System.out.println("El auto: " + auto.getModelo() + " ha llenado el tanque, libera el surtidor y se va");
     }
     
 }

@@ -23,16 +23,19 @@ public class Personaje implements Runnable {
     
     public void run() {
         if (rol.equalsIgnoreCase("Orco")){
-                System.out.println("Vida actual: " + barraVida.getVida());
                 System.out.println("El orco nos ataca!! -3 VIDA");
                 barraVida.recibirDanio(3);
         }
         else{
             if (rol.equalsIgnoreCase("Curandero")){
-                    System.out.println("Vida actual: " + barraVida.getVida());
                     System.out.println("El curandero restora nuestra vitalidad!! +3 VIDA");
                     barraVida.curarse(3);
             }
+        }
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ex) {
+            Logger.getLogger(Personaje.class.getName()).log(Level.SEVERE, null, ex);
         }
         System.out.println("Vida actual: " + barraVida.getVida());
     }

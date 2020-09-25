@@ -11,7 +11,7 @@ import TrabajoPracticoRendezvous.Objetos.DualSynch;
  *
  * @author Leo
  */
-public class problema2 {
+public class problema02 {
 
     public static void main(String[] args) {
         final DualSynch ds = new DualSynch();

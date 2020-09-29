@@ -15,39 +15,29 @@ import java.util.logging.Logger;
  */
 public class TestigoCarrera {
     private Semaphore sem1;
-    private Semaphore sem2;
 
     public TestigoCarrera() {
         this.sem1 = new Semaphore(1);
-        this.sem2 = new Semaphore(0);
     }
     
-    public void saleCorredor(String nombre){
+    public void recibeTestigo(){
         try {
             sem1.acquire();
-            System.out.println("El corredor " + nombre +" comienza su turno");
-            Thread.sleep(((long) Math.random() * (11 - 9) + 9) * 1000);
-            System.out.println("El corredor " + nombre +" finaliza su turno");
         } catch (InterruptedException ex) {
             Logger.getLogger(TestigoCarrera.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        finally{
-            sem2.release();
         }
     }
     
-    public void vuelveCorredor(String nombre){
+    public void corre(){
         try {
-            sem2.acquire(); 
-            System.out.println("El corredor " + nombre + " comienza su turno");
-            Thread.sleep(((long) (Math.random() * (11 - 9) + 9) * 1000));
-            System.out.println("El corredor " + nombre + " finaliza su turno");
+            Thread.sleep((long) (Math.random() * (11 - 9) + 9) * 1000);
         } catch (InterruptedException ex) {
             Logger.getLogger(TestigoCarrera.class.getName()).log(Level.SEVERE, null, ex);
         }
-        finally{
-            sem1.release();
-        }
+    }
+    
+    public void entregaTestigo(){
+        sem1.release();
     }
     
 }

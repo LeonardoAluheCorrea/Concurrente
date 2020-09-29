@@ -12,26 +12,23 @@ package TrabajoPracticoRendezvous.Objetos;
 public class Corredor implements Runnable {
     private String nombre;
     private TestigoCarrera testigo;
-    private int lado;
+    private int equipo;
     private double tiempo;
 
     public Corredor(String nombre, TestigoCarrera testigo, int lado, double tiempo) {
         this.nombre = nombre;
         this.testigo = testigo;
-        this.lado = lado;
+        this.equipo = lado;
         this.tiempo = tiempo;
     }
 
     @Override
     public void run() {
-        System.out.println(nombre + " espera el testigo");
-        if (lado == 1){
-            testigo.saleCorredor(nombre);
-        }
-        else{
-            testigo.vuelveCorredor(nombre);
-        }
-        System.out.println(nombre + " finalizo, tiempo hasta ahora: " + (System.currentTimeMillis() - tiempo) / 1000 + " segundos");
+        testigo.recibeTestigo();
+        System.out.println(nombre + " recibio el testigo, sale");
+        testigo.corre();
+        System.out.println(nombre + " finalizo, tiempo hasta ahora del equipo " + equipo + ": " + (System.currentTimeMillis() - tiempo) / 1000 + " segundos");
+        testigo.entregaTestigo();
     }
     
 }

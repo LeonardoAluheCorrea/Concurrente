@@ -16,12 +16,13 @@ public class Problema08 {
     public static void main (String[]args){
         Corredor a,b,c,d;
         Thread t1, t2, t3, t4;
-        TestigoCarrera testigo;
-        testigo = new TestigoCarrera();
-        a = new Corredor("A", testigo, 2, System.currentTimeMillis());
-        b = new Corredor("B", testigo, 2, System.currentTimeMillis());
-        c = new Corredor("C", testigo, 1, System.currentTimeMillis());
-        d = new Corredor("D", testigo, 1, System.currentTimeMillis());
+        TestigoCarrera testigo1, testigo2;
+        testigo1 = new TestigoCarrera();
+        testigo2 = new TestigoCarrera();
+        a = new Corredor("A", testigo2, 2, System.currentTimeMillis());
+        b = new Corredor("B", testigo2, 2, System.currentTimeMillis());
+        c = new Corredor("C", testigo1, 1, System.currentTimeMillis());
+        d = new Corredor("D", testigo1, 1, System.currentTimeMillis());
         t1 = new Thread(a);
         t2 = new Thread(b);
         t3 = new Thread(c);

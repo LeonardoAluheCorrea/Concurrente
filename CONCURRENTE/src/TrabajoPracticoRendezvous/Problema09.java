@@ -5,10 +5,10 @@
  */
 package TrabajoPracticoRendezvous;
 
+import TrabajoPracticoRendezvous.Objetos.Cliente;
 import TrabajoPracticoRendezvous.Objetos.Persona;
 import TrabajoPracticoRendezvous.Objetos.Taxi;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import TrabajoPracticoRendezvous.Objetos.Taxista;
 
 /**
  *
@@ -17,13 +17,14 @@ import java.util.logging.Logger;
 public class Problema09 {
     public static void main(String[]args){
         Taxi taxi;
-        Persona taxista, cliente1, cliente2;
-        Thread t1, t2, t3;
+        Taxista taxista;
+        Cliente cliente;
+        Thread t1, t2;
         taxi = new Taxi();
-        taxista = new Persona(taxi,"taxista");
-        cliente1 = new Persona(taxi, "cliente");
+        taxista = new Taxista(taxi,"taxista");
+        cliente = new Cliente(taxi, "cliente");
         t1 = new Thread(taxista);
-        t2 = new Thread(cliente1);
+        t2 = new Thread(cliente);
         t1.start();
         t2.start();
     }

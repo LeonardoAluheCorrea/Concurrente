@@ -22,41 +22,35 @@ public class Taxi {
         sem2 = new Semaphore(0);
     }
     
-    public void transportaCliente(){
+    public void descansar(){
+        sem2.release();
+    }
+    
+    public void despertarTaxista(){
+        sem1.release();
+    }
+    
+    public void bajarse(){
         try {
             sem2.acquire();
-            Thread.sleep(7000);
-            sem1.release();
+        } catch (InterruptedException ex) {
+            Logger.getLogger(Taxi.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+    
+    public void llevarCliente(){
+        try {
+            sem1.acquire();
+            System.out.println("El taxi sale");
+            Thread.sleep(10000);
+            System.out.println("El taxi llega");
         } catch (InterruptedException ex) {
             Logger.getLogger(Taxi.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
     
     public void notificarCliente(){
-        try {
-            sem1.acquire();
-            sem2.release();
-        } catch (InterruptedException ex) {
-            Logger.getLogger(Taxi.class.getName()).log(Level.SEVERE, null, ex);
-        }
-    }
-    
-    public void descansa(){
-        sem1.release();
-        try {
-            sem2.acquire();
-        } catch (InterruptedException ex) {
-            Logger.getLogger(Taxi.class.getName()).log(Level.SEVERE, null, ex);
-        }
-    }
-    
-    public void llegaCliente(){
-        try {
-            sem1.acquire();
-            sem2.release();
-        } catch (InterruptedException ex) {
-            Logger.getLogger(Taxi.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        sem2.release();
     }
     
 }

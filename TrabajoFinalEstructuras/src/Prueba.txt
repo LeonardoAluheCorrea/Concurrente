@@ -1,0 +1,18 @@
+C:DNI,34456678,422493,Elordi 356,Manuel Torres,1983-05-12.
+C:DNI,43358829,8378909,Anaya 250,Jeremias Barahona,1998-05-15.
+C:DNI,40235849,3532888,Linares 2654,Raul Navarro,1995-12-25.
+C:DNI,33353246,3435889,San Martin 8,Anais Bolivares,1979-01-26.
+C:DNI,31234543,34335,Anaya 356,Raul Perez,1968-02-29.
+C:DNI,35433435,43465,Anaya 368,Malena Gonzalez,1973-06-02.
+C:DNI,26878787,54653,Roca 23,Manuela Caras, 1956-12-12.
+C:DNI,38898923,54889,Ceferino 3857,Magnus Carlsen,1992-05-26.
+C:DNI,34888877,52353,Belgrano 6531,Sasha Gonzalez,1985-02-12.
+C:DNI,42343435,35889,Moreno 388,Alejandro Ramirez,2001-10-01.
+C:Pasaporte,98989873,3543,Lenin 643,Alexander Grischuk,1998-12-22
+C:Pasaporte,35625343,65623,Marie 3235,Silvia Marengo,1956-10-23.
+C:Pasaporte,23512334,23546,Av Higgins 38,Cristobal Torres,1980-02-12
+C:Pasaporte,90018338,23544,Callejon Bello 3,Matias Jones,2001-05-23.
+C:Pasaporte,78992173,23435,Gin-Gins 298,Maya Nakamura,1988-02-13
+C:DNI,58893353,Los Saltos 888,Martina Beraldo,1983-03-03.
+C:DNI,35388881,655657,Callejon de Creide 356,Violeta Rivas,1984-06-22.
+

@@ -1,0 +1,1289 @@
+
+
+Nodo: Aeropuerto{nombreAeronautico=MUC, ciudad=Munich, nroTelefono=498997500}  enlazado a: Aeropuerto{nombreAeronautico=BCN, ciudad=Barcelona, nroTelefono=34913211000} con etiqueta: 200      , Aeropuerto{nombreAeronautico=SVO, ciudad=Moscu, nroTelefono=74955786565} con etiqueta: 330      , 
+Nodo: Aeropuerto{nombreAeronautico=CPT, ciudad=Ciudad del Cabo, nroTelefono=27219371200}  enlazado a: Aeropuerto{nombreAeronautico=BOM, ciudad=Mumbai, nroTelefono=912266851010} con etiqueta: 380      , Aeropuerto{nombreAeronautico=BCN, ciudad=Barcelona, nroTelefono=34913211000} con etiqueta: 400      , Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 400      , 
+Nodo: Aeropuerto{nombreAeronautico=ADL, ciudad=Adelaide, nroTelefono=61883089211}  enlazado a: Aeropuerto{nombreAeronautico=BOM, ciudad=Mumbai, nroTelefono=912266851010} con etiqueta: 500      , 
+Nodo: Aeropuerto{nombreAeronautico=BOM, ciudad=Mumbai, nroTelefono=912266851010}  enlazado a: Aeropuerto{nombreAeronautico=CPT, ciudad=Ciudad del Cabo, nroTelefono=27219371200} con etiqueta: 380      , Aeropuerto{nombreAeronautico=SVO, ciudad=Moscu, nroTelefono=74955786565} con etiqueta: 270      , Aeropuerto{nombreAeronautico=ADL, ciudad=Adelaide, nroTelefono=61883089211} con etiqueta: 500      , 
+Nodo: Aeropuerto{nombreAeronautico=SVO, ciudad=Moscu, nroTelefono=74955786565}  enlazado a: Aeropuerto{nombreAeronautico=MUC, ciudad=Munich, nroTelefono=498997500} con etiqueta: 330      , Aeropuerto{nombreAeronautico=BOM, ciudad=Mumbai, nroTelefono=912266851010} con etiqueta: 270      , 
+Nodo: Aeropuerto{nombreAeronautico=IAD, ciudad=Washington DC, nroTelefono=17035722700}  enlazado a: Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 600      , Aeropuerto{nombreAeronautico=BCN, ciudad=Barcelona, nroTelefono=34913211000} con etiqueta: 500      , 
+Nodo: Aeropuerto{nombreAeronautico=BCN, ciudad=Barcelona, nroTelefono=34913211000}  enlazado a: Aeropuerto{nombreAeronautico=IAD, ciudad=Washington DC, nroTelefono=17035722700} con etiqueta: 500      , Aeropuerto{nombreAeronautico=MUC, ciudad=Munich, nroTelefono=498997500} con etiqueta: 200      , Aeropuerto{nombreAeronautico=CPT, ciudad=Ciudad del Cabo, nroTelefono=27219371200} con etiqueta: 400      , Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 700      , 
+Nodo: Aeropuerto{nombreAeronautico=CRD, ciudad=Comodoro Rivadavia, nroTelefono=02974548190}  enlazado a: Aeropuerto{nombreAeronautico=BRC, ciudad=San Carlos de Bariloche, nroTelefono=02944405016} con etiqueta: 40      , Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 100      , 
+Nodo: Aeropuerto{nombreAeronautico=USH, ciudad=Ushuaia, nroTelefono=02901431232}  enlazado a: Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 300      , 
+Nodo: Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762}  enlazado a: Aeropuerto{nombreAeronautico=IAD, ciudad=Washington DC, nroTelefono=17035722700} con etiqueta: 600      , Aeropuerto{nombreAeronautico=BCN, ciudad=Barcelona, nroTelefono=34913211000} con etiqueta: 700      , Aeropuerto{nombreAeronautico=CPT, ciudad=Ciudad del Cabo, nroTelefono=27219371200} con etiqueta: 400      , Aeropuerto{nombreAeronautico=NQN, ciudad=Neuquen, nroTelefono=02994440448} con etiqueta: 200      , Aeropuerto{nombreAeronautico=COR, ciudad=Cordoba, nroTelefono=03514750881} con etiqueta: 100      , Aeropuerto{nombreAeronautico=MDZ, ciudad=Mendoza, nroTelefono=02615206000} con etiqueta: 200      , Aeropuerto{nombreAeronautico=BRC, ciudad=San Carlos de Bariloche, nroTelefono=02944405016} con etiqueta: 215      , Aeropuerto{nombreAeronautico=USH, ciudad=Ushuaia, nroTelefono=02901431232} con etiqueta: 300      , Aeropuerto{nombreAeronautico=CRD, ciudad=Comodoro Rivadavia, nroTelefono=02974548190} con etiqueta: 100      , 
+Nodo: Aeropuerto{nombreAeronautico=COR, ciudad=Cordoba, nroTelefono=03514750881}  enlazado a: Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 100      , Aeropuerto{nombreAeronautico=MDZ, ciudad=Mendoza, nroTelefono=02615206000} con etiqueta: 85      , 
+Nodo: Aeropuerto{nombreAeronautico=BRC, ciudad=San Carlos de Bariloche, nroTelefono=02944405016}  enlazado a: Aeropuerto{nombreAeronautico=CRD, ciudad=Comodoro Rivadavia, nroTelefono=02974548190} con etiqueta: 40      , Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 215      , Aeropuerto{nombreAeronautico=MDZ, ciudad=Mendoza, nroTelefono=02615206000} con etiqueta: 40      , 
+Nodo: Aeropuerto{nombreAeronautico=MDZ, ciudad=Mendoza, nroTelefono=02615206000}  enlazado a: Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 200      , Aeropuerto{nombreAeronautico=COR, ciudad=Cordoba, nroTelefono=03514750881} con etiqueta: 85      , Aeropuerto{nombreAeronautico=BRC, ciudad=San Carlos de Bariloche, nroTelefono=02944405016} con etiqueta: 40      , 
+Nodo: Aeropuerto{nombreAeronautico=NQN, ciudad=Neuquen, nroTelefono=02994440448}  enlazado a: Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 200      , 
+
+P: Vuelo{codigo=AJ9270, origen=BOM, destino=CPT, horaSalida=1520, horaLlegada=1900, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=268}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=133}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=175}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HI: Vuelo{codigo=AA7876, origen=BRC, destino=CRD, horaSalida=1500, horaLlegada=1540, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=86}
+Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=332}
+Viaje{fecha=2020-08-08, asientosTotales=400, asientosVendidos=255}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=213}
+Viaje{fecha=2020-08-19, asientosTotales=300, asientosVendidos=122}
+}      HD: Vuelo{codigo=IL8869, origen=BCN, destino=AEP, horaSalida=500, horaLlegada=1200, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=200, asientosVendidos=108}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=323}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=75}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=175}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=257}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=AA7876, origen=BRC, destino=CRD, horaSalida=1500, horaLlegada=1540, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=86}
+Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=332}
+Viaje{fecha=2020-08-08, asientosTotales=400, asientosVendidos=255}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=213}
+Viaje{fecha=2020-08-19, asientosTotales=300, asientosVendidos=122}
+}      HI: Vuelo{codigo=AA2908, origen=COR, destino=AEP, horaSalida=1300, horaLlegada=1400, lista de viajes: Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=40}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=343}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=325}
+Viaje{fecha=2020-08-08, asientosTotales=400, asientosVendidos=235}
+Viaje{fecha=2020-08-10, asientosTotales=400, asientosVendidos=154}
+Viaje{fecha=2020-08-12, asientosTotales=300, asientosVendidos=234}
+Viaje{fecha=2020-08-14, asientosTotales=300, asientosVendidos=192}
+}      HD: Vuelo{codigo=AJ3233, origen=SVO, destino=BOM, horaSalida=1230, horaLlegada=1500, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=200, asientosVendidos=108}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=362}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-11, asientosTotales=200, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=IL8869, origen=BCN, destino=AEP, horaSalida=500, horaLlegada=1200, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=200, asientosVendidos=108}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=323}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=75}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=175}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=257}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HI: Vuelo{codigo=IH3412, origen=BOM, destino=ADL, horaSalida=1500, horaLlegada=2000, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=138}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=133}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=376}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HD: Vuelo{codigo=UO3490, origen=BCN, destino=IAD, horaSalida=1000, horaLlegada=1500, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=200, asientosVendidos=8}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=233}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=335}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=135}
+Viaje{fecha=2020-08-15, asientosTotales=400, asientosVendidos=37}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=167}
+}
+P: Vuelo{codigo=AA2908, origen=COR, destino=AEP, horaSalida=1300, horaLlegada=1400, lista de viajes: Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=40}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=343}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=325}
+Viaje{fecha=2020-08-08, asientosTotales=400, asientosVendidos=235}
+Viaje{fecha=2020-08-10, asientosTotales=400, asientosVendidos=154}
+Viaje{fecha=2020-08-12, asientosTotales=300, asientosVendidos=234}
+Viaje{fecha=2020-08-14, asientosTotales=300, asientosVendidos=192}
+}      HI: Vuelo{codigo=AA0237, origen=MDZ, destino=COR, horaSalida=1630, horaLlegada=1715, lista de viajes: Viaje{fecha=2020-08-03, asientosTotales=400, asientosVendidos=133}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=365}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=365}
+Viaje{fecha=2020-08-10, asientosTotales=400, asientosVendidos=265}
+Viaje{fecha=2020-08-14, asientosTotales=400, asientosVendidos=165}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=275}
+Viaje{fecha=2020-08-20, asientosTotales=300, asientosVendidos=165}
+}      HD: Vuelo{codigo=AA3542, origen=CRD, destino=AEP, horaSalida=1300, horaLlegada=1400, lista de viajes: Viaje{fecha=2020-08-05, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-13, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=AJ3233, origen=SVO, destino=BOM, horaSalida=1230, horaLlegada=1500, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=200, asientosVendidos=108}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=362}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-11, asientosTotales=200, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HI: Vuelo{codigo=AA8782, origen=MDZ, destino=AEP, horaSalida=1500, horaLlegada=1700, lista de viajes: Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=40}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=373}
+Viaje{fecha=2020-08-10, asientosTotales=400, asientosVendidos=365}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=215}
+Viaje{fecha=2020-08-13, asientosTotales=400, asientosVendidos=174}
+Viaje{fecha=2020-08-12, asientosTotales=300, asientosVendidos=284}
+Viaje{fecha=2020-08-14, asientosTotales=300, asientosVendidos=122}
+}      HD: Vuelo{codigo=AJ3533, origen=AEP, destino=IAD, horaSalida=1400, horaLlegada=2000, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=450, asientosVendidos=178}
+Viaje{fecha=2020-08-04, asientosTotales=450, asientosVendidos=363}
+Viaje{fecha=2020-08-06, asientosTotales=450, asientosVendidos=325}
+Viaje{fecha=2020-08-07, asientosTotales=450, asientosVendidos=175}
+Viaje{fecha=2020-08-13, asientosTotales=450, asientosVendidos=134}
+Viaje{fecha=2020-08-14, asientosTotales=450, asientosVendidos=237}
+Viaje{fecha=2020-08-15, asientosTotales=450, asientosVendidos=125}
+}
+P: Vuelo{codigo=IH3412, origen=BOM, destino=ADL, horaSalida=1500, horaLlegada=2000, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=138}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=133}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=376}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HI: Vuelo{codigo=HH6725, origen=MUC, destino=SVO, horaSalida=1600, horaLlegada=1930, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=208}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=325}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HD: Vuelo{codigo=IH3540, origen=AEP, destino=CPT, horaSalida=900, horaLlegada=1300, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=158}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=373}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=265}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=UO3490, origen=BCN, destino=IAD, horaSalida=1000, horaLlegada=1500, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=200, asientosVendidos=8}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=233}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=335}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=135}
+Viaje{fecha=2020-08-15, asientosTotales=400, asientosVendidos=37}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=167}
+}      HI: Vuelo{codigo=UO0083, origen=BCN, destino=CPT, horaSalida=1500, horaLlegada=1900, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-08, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-17, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HD: Vuelo{codigo=UO5897, origen=BCN, destino=MUC, horaSalida=1200, horaLlegada=1400, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=18}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=133}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=378}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=277}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=164}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=400, asientosVendidos=365}
+}
+P: Vuelo{codigo=AA0237, origen=MDZ, destino=COR, horaSalida=1630, horaLlegada=1715, lista de viajes: Viaje{fecha=2020-08-03, asientosTotales=400, asientosVendidos=133}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=365}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=365}
+Viaje{fecha=2020-08-10, asientosTotales=400, asientosVendidos=265}
+Viaje{fecha=2020-08-14, asientosTotales=400, asientosVendidos=165}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=275}
+Viaje{fecha=2020-08-20, asientosTotales=300, asientosVendidos=165}
+}      HI: Vuelo{codigo=AA0023, origen=MDZ, destino=BRC, horaSalida=1800, horaLlegada=1840, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-03, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-13, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-16, asientosTotales=300, asientosVendidos=165}
+}      HD: Vuelo{codigo=AA2458, origen=NQN, destino=AEP, horaSalida=800, horaLlegada=1000, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=350, asientosVendidos=154}
+Viaje{fecha=2020-08-03, asientosTotales=350, asientosVendidos=235}
+Viaje{fecha=2020-08-05, asientosTotales=350, asientosVendidos=320}
+Viaje{fecha=2020-08-07, asientosTotales=350, asientosVendidos=123}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=103}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=123}
+}
+P: Vuelo{codigo=AA3542, origen=CRD, destino=AEP, horaSalida=1300, horaLlegada=1400, lista de viajes: Viaje{fecha=2020-08-05, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-13, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HI: Vuelo{codigo=AA3254, origen=BRC, destino=AEP, horaSalida=1900, horaLlegada=2115, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HD: Vuelo{codigo=AA5354, origen=USH, destino=AEP, horaSalida=1000, horaLlegada=1300, lista de viajes: Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=138}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-13, asientosTotales=400, asientosVendidos=263}
+Viaje{fecha=2020-08-14, asientosTotales=400, asientosVendidos=135}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=123}
+Viaje{fecha=2020-08-20, asientosTotales=300, asientosVendidos=90}
+}
+P: Vuelo{codigo=AA8782, origen=MDZ, destino=AEP, horaSalida=1500, horaLlegada=1700, lista de viajes: Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=40}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=373}
+Viaje{fecha=2020-08-10, asientosTotales=400, asientosVendidos=365}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=215}
+Viaje{fecha=2020-08-13, asientosTotales=400, asientosVendidos=174}
+Viaje{fecha=2020-08-12, asientosTotales=300, asientosVendidos=284}
+Viaje{fecha=2020-08-14, asientosTotales=300, asientosVendidos=122}
+}
+P: Vuelo{codigo=AJ3533, origen=AEP, destino=IAD, horaSalida=1400, horaLlegada=2000, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=450, asientosVendidos=178}
+Viaje{fecha=2020-08-04, asientosTotales=450, asientosVendidos=363}
+Viaje{fecha=2020-08-06, asientosTotales=450, asientosVendidos=325}
+Viaje{fecha=2020-08-07, asientosTotales=450, asientosVendidos=175}
+Viaje{fecha=2020-08-13, asientosTotales=450, asientosVendidos=134}
+Viaje{fecha=2020-08-14, asientosTotales=450, asientosVendidos=237}
+Viaje{fecha=2020-08-15, asientosTotales=450, asientosVendidos=125}
+}
+P: Vuelo{codigo=HH6725, origen=MUC, destino=SVO, horaSalida=1600, horaLlegada=1930, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=208}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=325}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=IH3540, origen=AEP, destino=CPT, horaSalida=900, horaLlegada=1300, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=158}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=373}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=265}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=UO0083, origen=BCN, destino=CPT, horaSalida=1500, horaLlegada=1900, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-08, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-17, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=UO5897, origen=BCN, destino=MUC, horaSalida=1200, horaLlegada=1400, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=18}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=133}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=378}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=277}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=164}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=400, asientosVendidos=365}
+}
+P: Vuelo{codigo=AA0023, origen=MDZ, destino=BRC, horaSalida=1800, horaLlegada=1840, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-03, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-13, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-16, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=AA2458, origen=NQN, destino=AEP, horaSalida=800, horaLlegada=1000, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=350, asientosVendidos=154}
+Viaje{fecha=2020-08-03, asientosTotales=350, asientosVendidos=235}
+Viaje{fecha=2020-08-05, asientosTotales=350, asientosVendidos=320}
+Viaje{fecha=2020-08-07, asientosTotales=350, asientosVendidos=123}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=103}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=123}
+}
+P: Vuelo{codigo=AA3254, origen=BRC, destino=AEP, horaSalida=1900, horaLlegada=2115, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=AA5354, origen=USH, destino=AEP, horaSalida=1000, horaLlegada=1300, lista de viajes: Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=138}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-13, asientosTotales=400, asientosVendidos=263}
+Viaje{fecha=2020-08-14, asientosTotales=400, asientosVendidos=135}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=123}
+Viaje{fecha=2020-08-20, asientosTotales=300, asientosVendidos=90}
+}
+
+
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=40235849}, nroTelefono=3532888, domicilio=Linares 2654, nombreApellido=Raul Navarro, fechaNacimiento=1995-12-25}      HI: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=34456678}, nroTelefono=422493, domicilio=Elordi 356, nombreApellido=Manuel Torres, fechaNacimiento=1983-05-12}      HD: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=35625343}, nroTelefono=65623, domicilio=Marie 3235, nombreApellido=Silvia Marengo, fechaNacimiento=1956-10-23}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=34456678}, nroTelefono=422493, domicilio=Elordi 356, nombreApellido=Manuel Torres, fechaNacimiento=1983-05-12}      HI: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=31234543}, nroTelefono=34335, domicilio=Anaya 356, nombreApellido=Raul Perez, fechaNacimiento=1968-02-29}      HD: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=35433435}, nroTelefono=43465, domicilio=Anaya 368, nombreApellido=Malena Gonzalez, fechaNacimiento=1973-06-02}
+P: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=35625343}, nroTelefono=65623, domicilio=Marie 3235, nombreApellido=Silvia Marengo, fechaNacimiento=1956-10-23}      HI: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=43358829}, nroTelefono=8378909, domicilio=Anaya 250, nombreApellido=Jeremias Barahona, fechaNacimiento=1998-05-15}      HD: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=90018338}, nroTelefono=23544, domicilio=Callejon Bello 3, nombreApellido=Matias Jones, fechaNacimiento=2001-05-23}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=31234543}, nroTelefono=34335, domicilio=Anaya 356, nombreApellido=Raul Perez, fechaNacimiento=1968-02-29}      HI: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=26878787}, nroTelefono=54653, domicilio=Roca 23, nombreApellido=Manuela Caras, fechaNacimiento=1956-12-12}      HD: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=33353246}, nroTelefono=3435889, domicilio=San Martin 8, nombreApellido=Anais Bolivares, fechaNacimiento=1979-01-26}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=35433435}, nroTelefono=43465, domicilio=Anaya 368, nombreApellido=Malena Gonzalez, fechaNacimiento=1973-06-02}      HI: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=34888877}, nroTelefono=52353, domicilio=Belgrano 6531, nombreApellido=Sasha Gonzalez, fechaNacimiento=1985-02-12}      HD: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=38898923}, nroTelefono=54889, domicilio=Ceferino 3857, nombreApellido=Magnus Carlsen, fechaNacimiento=1992-05-26}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=43358829}, nroTelefono=8378909, domicilio=Anaya 250, nombreApellido=Jeremias Barahona, fechaNacimiento=1998-05-15}      HI: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=42343435}, nroTelefono=35889, domicilio=Moreno 388, nombreApellido=Alejandro Ramirez, fechaNacimiento=2001-10-01}      HD: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=23512334}, nroTelefono=23546, domicilio=Av Higgins 38, nombreApellido=Cristobal Torres, fechaNacimiento=1980-02-12}
+P: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=90018338}, nroTelefono=23544, domicilio=Callejon Bello 3, nombreApellido=Matias Jones, fechaNacimiento=2001-05-23}      HI: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=78992173}, nroTelefono=23435, domicilio=Gin-Gins 298, nombreApellido=Maya Nakamura, fechaNacimiento=1988-02-13}      HD: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=98989873}, nroTelefono=3543, domicilio=Lenin 643, nombreApellido=Alexander Grischuk, fechaNacimiento=1998-12-22}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=26878787}, nroTelefono=54653, domicilio=Roca 23, nombreApellido=Manuela Caras, fechaNacimiento=1956-12-12}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=33353246}, nroTelefono=3435889, domicilio=San Martin 8, nombreApellido=Anais Bolivares, fechaNacimiento=1979-01-26}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=34888877}, nroTelefono=52353, domicilio=Belgrano 6531, nombreApellido=Sasha Gonzalez, fechaNacimiento=1985-02-12}      HD: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=35388881}, nroTelefono=655657, domicilio=Callejon de Creide 356, nombreApellido=Violeta Rivas, fechaNacimiento=1984-06-22}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=38898923}, nroTelefono=54889, domicilio=Ceferino 3857, nombreApellido=Magnus Carlsen, fechaNacimiento=1992-05-26}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=42343435}, nroTelefono=35889, domicilio=Moreno 388, nombreApellido=Alejandro Ramirez, fechaNacimiento=2001-10-01}
+P: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=23512334}, nroTelefono=23546, domicilio=Av Higgins 38, nombreApellido=Cristobal Torres, fechaNacimiento=1980-02-12}      HI: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=58893353}, nroTelefono=422493, domicilio=Los Saltos 888, nombreApellido=Martina Beraldo, fechaNacimiento=1983-03-03}
+P: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=78992173}, nroTelefono=23435, domicilio=Gin-Gins 298, nombreApellido=Maya Nakamura, fechaNacimiento=1988-02-13}
+P: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=98989873}, nroTelefono=3543, domicilio=Lenin 643, nombreApellido=Alexander Grischuk, fechaNacimiento=1998-12-22}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=35388881}, nroTelefono=655657, domicilio=Callejon de Creide 356, nombreApellido=Violeta Rivas, fechaNacimiento=1984-06-22}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=58893353}, nroTelefono=422493, domicilio=Los Saltos 888, nombreApellido=Martina Beraldo, fechaNacimiento=1983-03-03}
+
+
+
+ClavePersona{tipoDni=DNI, numeroDni=43358829}Pasaje{nroAsiento=2, vuelo=AA0023, fecha=2020-08-23, estado=pendiente}
+Pasaje{nroAsiento=88, vuelo=AA0023, fecha=2020-01-05, estado=volado}
+Pasaje{nroAsiento=78, vuelo=AA3542, fecha=2020-05-15, estado=volado}
+Pasaje{nroAsiento=2, vuelo=AA0237, fecha=2019-06-12, estado=volado}
+Pasaje{nroAsiento=2, vuelo=AA5354, fecha=2019-03-14, estado=cancelado}
+Pasaje{nroAsiento=23, vuelo=AA7876, fecha=2020-09-18, estado=pendiente}
+Pasaje{nroAsiento=63, vuelo=AA7876, fecha=2020-02-19, estado=volado}
+Pasaje{nroAsiento=25, vuelo=AA7876, fecha=2020-09-13, estado=pendiente}
+Pasaje{nroAsiento=25, vuelo=AA5354, fecha=2020-02-14, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=34888877}Pasaje{nroAsiento=68, vuelo=AA0023, fecha=2020-02-02, estado=volado}
+Pasaje{nroAsiento=63, vuelo=AA0023, fecha=2020-04-01, estado=volado}
+Pasaje{nroAsiento=23, vuelo=AA0023, fecha=2020-03-12, estado=volado}
+Pasaje{nroAsiento=1, vuelo=AA0023, fecha=2020-04-10, estado=volado}
+Pasaje{nroAsiento=35, vuelo=AA3254, fecha=2020-08-10, estado=volado}
+Pasaje{nroAsiento=53, vuelo=AA5354, fecha=2020-09, estado=pendiente}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=38898923}Pasaje{nroAsiento=35, vuelo=AA0237, fecha=2020-05-06, estado=cancelado}
+Pasaje{nroAsiento=65, vuelo=AA0237, fecha=2020-04-07, estado=cancelado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=35388881}Pasaje{nroAsiento=1, vuelo=AA0023, fecha=2020-05-29, estado=volado}
+Pasaje{nroAsiento=2, vuelo=IL8869, fecha=2020-02-24, estado=volado}
+Pasaje{nroAsiento=55, vuelo=UO3490, fecha=2020-04-22, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=34456678}Pasaje{nroAsiento=25, vuelo=AA2458, fecha=2020-08-10, estado=volado}
+Pasaje{nroAsiento=43, vuelo=AA2458, fecha=2020-05-11, estado=cancelado}
+Pasaje{nroAsiento=56, vuelo=AA2458, fecha=2019-06-12, estado=volado}
+Pasaje{nroAsiento=10, vuelo=AA8782, fecha=2020-09-14, estado=pendiente}
+
+
+ClavePersona{tipoDni=Pasaporte, numeroDni=90018338}Pasaje{nroAsiento=33, vuelo=AA3254, fecha=2020-10-02, estado=pendiente}
+Pasaje{nroAsiento=35, vuelo=IH3540, fecha=2020-01-05, estado=volado}
+Pasaje{nroAsiento=64, vuelo=AJ3533, fecha=2020-05-22, estado=volado}
+Pasaje{nroAsiento=2, vuelo=AA2908, fecha=2020-06-15, estado=volado}
+Pasaje{nroAsiento=2, vuelo=UO0083, fecha=2020-03-13, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=33353246}Pasaje{nroAsiento=69, vuelo=AA2908, fecha=2020-01-28, estado=volado}
+Pasaje{nroAsiento=125, vuelo=AA2908, fecha=2020-01-6, estado=volado}
+Pasaje{nroAsiento=263, vuelo=AA2908, fecha=2020-05-23, estado=volado}
+Pasaje{nroAsiento=92, vuelo=AA2908, fecha=2020-03-26, estado=volado}
+Pasaje{nroAsiento=65, vuelo=AA8782, fecha=2019-09-04, estado=cancelado}
+Pasaje{nroAsiento=98, vuelo=AA8782, fecha=2019-11-23, estado=cancelado}
+Pasaje{nroAsiento=293, vuelo=AA8782, fecha=2019-12-02, estado=volado}
+Pasaje{nroAsiento=235, vuelo=AA8782, fecha=2020-01-06, estado=volado}
+Pasaje{nroAsiento=388, vuelo=AA3542, fecha=2020-04-05, estado=volado}
+Pasaje{nroAsiento=388, vuelo=AA3542, fecha=2020-04-21, estado=volado}
+
+
+ClavePersona{tipoDni=Pasaporte, numeroDni=78992173}Pasaje{nroAsiento=33, vuelo=AJ3233, fecha=2020-07-12, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=35433435}Pasaje{nroAsiento=93, vuelo=AA5354, fecha=2020-09-05, estado=pendiente}
+Pasaje{nroAsiento=72, vuelo=AA5354, fecha=2020-08-03, estado=volado}
+Pasaje{nroAsiento=78, vuelo=AA5354, fecha=2020-03-03, estado=volado}
+
+
+ClavePersona{tipoDni=Pasaporte, numeroDni=35625343}Pasaje{nroAsiento=23, vuelo=AJ3533, fecha=2020-05-02, estado=volado}
+Pasaje{nroAsiento=12, vuelo=IL8869, fecha=2020-01-09, estado=volado}
+Pasaje{nroAsiento=45, vuelo=IL8869, fecha=2020-05-11, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=26878787}Pasaje{nroAsiento=238, vuelo=AA3542, fecha=2020-05-23, estado=volado}
+Pasaje{nroAsiento=235, vuelo=AA3542, fecha=2020-09-23, estado=pendiente}
+Pasaje{nroAsiento=22, vuelo=AA3542, fecha=2020-10-25, estado=pendiente}
+Pasaje{nroAsiento=235, vuelo=AA3542, fecha=2020-07-15, estado=volado}
+Pasaje{nroAsiento=13, vuelo=AA3542, fecha=2020-01-15, estado=volado}
+Pasaje{nroAsiento=35, vuelo=AA7876, fecha=2020-02-09, estado=volado}
+Pasaje{nroAsiento=32, vuelo=AA7876, fecha=2019-12-20, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=58893353}Pasaje{nroAsiento=3, vuelo=HH6725, fecha=2019-12-22, estado=volado}
+Pasaje{nroAsiento=54, vuelo=AJ3233, fecha=2019-11-22, estado=volado}
+Pasaje{nroAsiento=99, vuelo=IH3412, fecha=2020-01-22, estado=volado}
+Pasaje{nroAsiento=103, vuelo=IH3540, fecha=2020-02-22, estado=volado}
+Pasaje{nroAsiento=103, vuelo=AJ3533, fecha=2020-03-22, estado=volado}
+Pasaje{nroAsiento=12, vuelo=AA3458, fecha=2020-04-22, estado=cancelado}
+Pasaje{nroAsiento=1, vuelo=AA3254, fecha=2020-05-22, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=40235849}Pasaje{nroAsiento=5, vuelo=AA8782, fecha=2020-08-25, estado=pendiente}
+Pasaje{nroAsiento=6, vuelo=AA3254, fecha=2020-07-21, estado=volado}
+Pasaje{nroAsiento=25, vuelo=AA2458, fecha=2020-06-12, estado=volado}
+
+
+ClavePersona{tipoDni=Pasaporte, numeroDni=23512334}Pasaje{nroAsiento=123, vuelo=UO5897, fecha=2020-03-15, estado=volado}
+Pasaje{nroAsiento=112, vuelo=UO3490, fecha=2020-01-19, estado=volado}
+Pasaje{nroAsiento=124, vuelo=UO5897, fecha=2020-06-22, estado=volado}
+Pasaje{nroAsiento=123, vuelo=UO0083, fecha=2020-02-23, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=42343435}Pasaje{nroAsiento=98, vuelo=AA7876, fecha=2020-01-23, estado=volado}
+Pasaje{nroAsiento=122, vuelo=AA7876, fecha=2020-02-01, estado=volado}
+Pasaje{nroAsiento=153, vuelo=AA0237, fecha=2020-12-29, estado=pendiente}
+Pasaje{nroAsiento=253, vuelo=AA0023, fecha=2020-08-22, estado=pendiente}
+
+
+ClavePersona{tipoDni=Pasaporte, numeroDni=98989873}Pasaje{nroAsiento=34, vuelo=HH6725, fecha=2020-01-02, estado=volado}
+Pasaje{nroAsiento=23, vuelo=HH6725, fecha=2020-01-06, estado=volado}
+Pasaje{nroAsiento=54, vuelo=AJ3233, fecha=2020-09-02, estado=pendiente}
+Pasaje{nroAsiento=134, vuelo=AJ3233, fecha=2020-02-21, estado=cancelado}
+Pasaje{nroAsiento=2, vuelo=AJ3233, fecha=2020-07-23, estado=pendiente}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=31234543}Pasaje{nroAsiento=354, vuelo=AA2458, fecha=2019-03-12, estado=volado}
+Pasaje{nroAsiento=12, vuelo=AA2458, fecha=2020-06-02, estado=cancelado}
+Pasaje{nroAsiento=23, vuelo=AA2458, fecha=2020-05-01, estado=volado}
+Pasaje{nroAsiento=35, vuelo=AA0237, fecha=2020-07-15, estado=volado}
+Pasaje{nroAsiento=54, vuelo=AA0237, fecha=2020-10-02, estado=pendiente}
+
+
+
+Nodo: Aeropuerto{nombreAeronautico=MUC, ciudad=Munich, nroTelefono=498997500}  enlazado a: Aeropuerto{nombreAeronautico=BCN, ciudad=Barcelona, nroTelefono=34913211000} con etiqueta: 200      , Aeropuerto{nombreAeronautico=SVO, ciudad=Moscu, nroTelefono=74955786565} con etiqueta: 330      , 
+Nodo: Aeropuerto{nombreAeronautico=CPT, ciudad=Ciudad del Cabo, nroTelefono=27219371200}  enlazado a: Aeropuerto{nombreAeronautico=BOM, ciudad=Mumbai, nroTelefono=912266851010} con etiqueta: 380      , Aeropuerto{nombreAeronautico=BCN, ciudad=Barcelona, nroTelefono=34913211000} con etiqueta: 400      , Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 400      , 
+Nodo: Aeropuerto{nombreAeronautico=ADL, ciudad=Adelaide, nroTelefono=61883089211}  enlazado a: Aeropuerto{nombreAeronautico=BOM, ciudad=Mumbai, nroTelefono=912266851010} con etiqueta: 500      , 
+Nodo: Aeropuerto{nombreAeronautico=BOM, ciudad=Mumbai, nroTelefono=912266851010}  enlazado a: Aeropuerto{nombreAeronautico=CPT, ciudad=Ciudad del Cabo, nroTelefono=27219371200} con etiqueta: 380      , Aeropuerto{nombreAeronautico=SVO, ciudad=Moscu, nroTelefono=74955786565} con etiqueta: 270      , Aeropuerto{nombreAeronautico=ADL, ciudad=Adelaide, nroTelefono=61883089211} con etiqueta: 500      , 
+Nodo: Aeropuerto{nombreAeronautico=SVO, ciudad=Moscu, nroTelefono=74955786565}  enlazado a: Aeropuerto{nombreAeronautico=MUC, ciudad=Munich, nroTelefono=498997500} con etiqueta: 330      , Aeropuerto{nombreAeronautico=BOM, ciudad=Mumbai, nroTelefono=912266851010} con etiqueta: 270      , 
+Nodo: Aeropuerto{nombreAeronautico=IAD, ciudad=Washington DC, nroTelefono=17035722700}  enlazado a: Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 600      , Aeropuerto{nombreAeronautico=BCN, ciudad=Barcelona, nroTelefono=34913211000} con etiqueta: 500      , 
+Nodo: Aeropuerto{nombreAeronautico=BCN, ciudad=Barcelona, nroTelefono=34913211000}  enlazado a: Aeropuerto{nombreAeronautico=IAD, ciudad=Washington DC, nroTelefono=17035722700} con etiqueta: 500      , Aeropuerto{nombreAeronautico=MUC, ciudad=Munich, nroTelefono=498997500} con etiqueta: 200      , Aeropuerto{nombreAeronautico=CPT, ciudad=Ciudad del Cabo, nroTelefono=27219371200} con etiqueta: 400      , Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 700      , 
+Nodo: Aeropuerto{nombreAeronautico=CRD, ciudad=Comodoro Rivadavia, nroTelefono=02974548190}  enlazado a: Aeropuerto{nombreAeronautico=BRC, ciudad=San Carlos de Bariloche, nroTelefono=02944405016} con etiqueta: 40      , Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 40      , 
+Nodo: Aeropuerto{nombreAeronautico=USH, ciudad=Ushuaia, nroTelefono=02901431232}  enlazado a: Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 300      , 
+Nodo: Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762}  enlazado a: Aeropuerto{nombreAeronautico=IAD, ciudad=Washington DC, nroTelefono=17035722700} con etiqueta: 600      , Aeropuerto{nombreAeronautico=BCN, ciudad=Barcelona, nroTelefono=34913211000} con etiqueta: 700      , Aeropuerto{nombreAeronautico=CPT, ciudad=Ciudad del Cabo, nroTelefono=27219371200} con etiqueta: 400      , Aeropuerto{nombreAeronautico=NQN, ciudad=Neuquen, nroTelefono=02994440448} con etiqueta: 200      , Aeropuerto{nombreAeronautico=COR, ciudad=Cordoba, nroTelefono=03514750881} con etiqueta: 100      , Aeropuerto{nombreAeronautico=MDZ, ciudad=Mendoza, nroTelefono=02615206000} con etiqueta: 200      , Aeropuerto{nombreAeronautico=BRC, ciudad=San Carlos de Bariloche, nroTelefono=02944405016} con etiqueta: 215      , Aeropuerto{nombreAeronautico=USH, ciudad=Ushuaia, nroTelefono=02901431232} con etiqueta: 300      , Aeropuerto{nombreAeronautico=CRD, ciudad=Comodoro Rivadavia, nroTelefono=02974548190} con etiqueta: 40      , 
+Nodo: Aeropuerto{nombreAeronautico=COR, ciudad=Cordoba, nroTelefono=03514750881}  enlazado a: Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 100      , Aeropuerto{nombreAeronautico=MDZ, ciudad=Mendoza, nroTelefono=02615206000} con etiqueta: 85      , 
+Nodo: Aeropuerto{nombreAeronautico=BRC, ciudad=San Carlos de Bariloche, nroTelefono=02944405016}  enlazado a: Aeropuerto{nombreAeronautico=CRD, ciudad=Comodoro Rivadavia, nroTelefono=02974548190} con etiqueta: 40      , Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 215      , Aeropuerto{nombreAeronautico=MDZ, ciudad=Mendoza, nroTelefono=02615206000} con etiqueta: 40      , 
+Nodo: Aeropuerto{nombreAeronautico=MDZ, ciudad=Mendoza, nroTelefono=02615206000}  enlazado a: Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 200      , Aeropuerto{nombreAeronautico=COR, ciudad=Cordoba, nroTelefono=03514750881} con etiqueta: 85      , Aeropuerto{nombreAeronautico=BRC, ciudad=San Carlos de Bariloche, nroTelefono=02944405016} con etiqueta: 40      , 
+Nodo: Aeropuerto{nombreAeronautico=NQN, ciudad=Neuquen, nroTelefono=02994440448}  enlazado a: Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 200      , 
+
+P: Vuelo{codigo=AJ9270, origen=BOM, destino=CPT, horaSalida=1520, horaLlegada=1900, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=268}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=133}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=175}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HI: Vuelo{codigo=AA7876, origen=BRC, destino=CRD, horaSalida=1500, horaLlegada=1540, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=86}
+Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=332}
+Viaje{fecha=2020-08-08, asientosTotales=400, asientosVendidos=255}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=213}
+Viaje{fecha=2020-08-19, asientosTotales=300, asientosVendidos=122}
+}      HD: Vuelo{codigo=IL8869, origen=BCN, destino=AEP, horaSalida=500, horaLlegada=1200, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=200, asientosVendidos=108}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=323}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=75}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=175}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=257}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=AA7876, origen=BRC, destino=CRD, horaSalida=1500, horaLlegada=1540, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=86}
+Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=332}
+Viaje{fecha=2020-08-08, asientosTotales=400, asientosVendidos=255}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=213}
+Viaje{fecha=2020-08-19, asientosTotales=300, asientosVendidos=122}
+}      HI: Vuelo{codigo=AA2908, origen=COR, destino=AEP, horaSalida=1300, horaLlegada=1400, lista de viajes: Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=40}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=343}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=325}
+Viaje{fecha=2020-08-08, asientosTotales=400, asientosVendidos=235}
+Viaje{fecha=2020-08-10, asientosTotales=400, asientosVendidos=154}
+Viaje{fecha=2020-08-12, asientosTotales=300, asientosVendidos=234}
+Viaje{fecha=2020-08-14, asientosTotales=300, asientosVendidos=192}
+}      HD: Vuelo{codigo=AJ3233, origen=SVO, destino=BOM, horaSalida=1230, horaLlegada=1500, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=200, asientosVendidos=108}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=362}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-11, asientosTotales=200, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=IL8869, origen=BCN, destino=AEP, horaSalida=500, horaLlegada=1200, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=200, asientosVendidos=108}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=323}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=75}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=175}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=257}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HI: Vuelo{codigo=IH3412, origen=BOM, destino=ADL, horaSalida=1500, horaLlegada=2000, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=138}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=133}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=376}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HD: Vuelo{codigo=UO3490, origen=BCN, destino=IAD, horaSalida=1000, horaLlegada=1500, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=200, asientosVendidos=8}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=233}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=335}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=135}
+Viaje{fecha=2020-08-15, asientosTotales=400, asientosVendidos=37}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=167}
+}
+P: Vuelo{codigo=AA2908, origen=COR, destino=AEP, horaSalida=1300, horaLlegada=1400, lista de viajes: Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=40}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=343}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=325}
+Viaje{fecha=2020-08-08, asientosTotales=400, asientosVendidos=235}
+Viaje{fecha=2020-08-10, asientosTotales=400, asientosVendidos=154}
+Viaje{fecha=2020-08-12, asientosTotales=300, asientosVendidos=234}
+Viaje{fecha=2020-08-14, asientosTotales=300, asientosVendidos=192}
+}      HI: Vuelo{codigo=AA0237, origen=MDZ, destino=COR, horaSalida=1630, horaLlegada=1715, lista de viajes: Viaje{fecha=2020-08-03, asientosTotales=400, asientosVendidos=133}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=365}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=365}
+Viaje{fecha=2020-08-10, asientosTotales=400, asientosVendidos=265}
+Viaje{fecha=2020-08-14, asientosTotales=400, asientosVendidos=165}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=275}
+Viaje{fecha=2020-08-20, asientosTotales=300, asientosVendidos=165}
+}      HD: Vuelo{codigo=AA3542, origen=CRD, destino=AEP, horaSalida=1300, horaLlegada=1340, lista de viajes: Viaje{fecha=2020-08-05, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-13, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=AJ3233, origen=SVO, destino=BOM, horaSalida=1230, horaLlegada=1500, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=200, asientosVendidos=108}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=362}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-11, asientosTotales=200, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HI: Vuelo{codigo=AA8782, origen=MDZ, destino=AEP, horaSalida=1500, horaLlegada=1700, lista de viajes: Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=40}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=373}
+Viaje{fecha=2020-08-10, asientosTotales=400, asientosVendidos=365}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=215}
+Viaje{fecha=2020-08-13, asientosTotales=400, asientosVendidos=174}
+Viaje{fecha=2020-08-12, asientosTotales=300, asientosVendidos=284}
+Viaje{fecha=2020-08-14, asientosTotales=300, asientosVendidos=122}
+}      HD: Vuelo{codigo=AJ3533, origen=AEP, destino=IAD, horaSalida=1400, horaLlegada=2000, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=450, asientosVendidos=178}
+Viaje{fecha=2020-08-04, asientosTotales=450, asientosVendidos=363}
+Viaje{fecha=2020-08-06, asientosTotales=450, asientosVendidos=325}
+Viaje{fecha=2020-08-07, asientosTotales=450, asientosVendidos=175}
+Viaje{fecha=2020-08-13, asientosTotales=450, asientosVendidos=134}
+Viaje{fecha=2020-08-14, asientosTotales=450, asientosVendidos=237}
+Viaje{fecha=2020-08-15, asientosTotales=450, asientosVendidos=125}
+}
+P: Vuelo{codigo=IH3412, origen=BOM, destino=ADL, horaSalida=1500, horaLlegada=2000, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=138}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=133}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=376}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HI: Vuelo{codigo=HH6725, origen=MUC, destino=SVO, horaSalida=1600, horaLlegada=1930, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=208}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=325}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HD: Vuelo{codigo=IH3540, origen=AEP, destino=CPT, horaSalida=900, horaLlegada=1300, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=158}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=373}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=265}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=UO3490, origen=BCN, destino=IAD, horaSalida=1000, horaLlegada=1500, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=200, asientosVendidos=8}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=233}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=335}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=135}
+Viaje{fecha=2020-08-15, asientosTotales=400, asientosVendidos=37}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=167}
+}      HI: Vuelo{codigo=UO0083, origen=BCN, destino=CPT, horaSalida=1500, horaLlegada=1900, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-08, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-17, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HD: Vuelo{codigo=UO5897, origen=BCN, destino=MUC, horaSalida=1200, horaLlegada=1400, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=18}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=133}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=378}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=277}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=164}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=400, asientosVendidos=365}
+}
+P: Vuelo{codigo=AA0237, origen=MDZ, destino=COR, horaSalida=1630, horaLlegada=1715, lista de viajes: Viaje{fecha=2020-08-03, asientosTotales=400, asientosVendidos=133}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=365}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=365}
+Viaje{fecha=2020-08-10, asientosTotales=400, asientosVendidos=265}
+Viaje{fecha=2020-08-14, asientosTotales=400, asientosVendidos=165}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=275}
+Viaje{fecha=2020-08-20, asientosTotales=300, asientosVendidos=165}
+}      HI: Vuelo{codigo=AA0023, origen=MDZ, destino=BRC, horaSalida=1800, horaLlegada=1840, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-03, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-13, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-16, asientosTotales=300, asientosVendidos=165}
+}      HD: Vuelo{codigo=AA2458, origen=NQN, destino=AEP, horaSalida=800, horaLlegada=1000, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=350, asientosVendidos=154}
+Viaje{fecha=2020-08-03, asientosTotales=350, asientosVendidos=235}
+Viaje{fecha=2020-08-05, asientosTotales=350, asientosVendidos=320}
+Viaje{fecha=2020-08-07, asientosTotales=350, asientosVendidos=123}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=103}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=123}
+}
+P: Vuelo{codigo=AA3542, origen=CRD, destino=AEP, horaSalida=1300, horaLlegada=1340, lista de viajes: Viaje{fecha=2020-08-05, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-13, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HI: Vuelo{codigo=AA3254, origen=BRC, destino=AEP, horaSalida=1900, horaLlegada=2115, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HD: Vuelo{codigo=AA5354, origen=USH, destino=AEP, horaSalida=1000, horaLlegada=1300, lista de viajes: Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=138}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-13, asientosTotales=400, asientosVendidos=263}
+Viaje{fecha=2020-08-14, asientosTotales=400, asientosVendidos=135}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=123}
+Viaje{fecha=2020-08-20, asientosTotales=300, asientosVendidos=90}
+}
+P: Vuelo{codigo=AA8782, origen=MDZ, destino=AEP, horaSalida=1500, horaLlegada=1700, lista de viajes: Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=40}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=373}
+Viaje{fecha=2020-08-10, asientosTotales=400, asientosVendidos=365}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=215}
+Viaje{fecha=2020-08-13, asientosTotales=400, asientosVendidos=174}
+Viaje{fecha=2020-08-12, asientosTotales=300, asientosVendidos=284}
+Viaje{fecha=2020-08-14, asientosTotales=300, asientosVendidos=122}
+}
+P: Vuelo{codigo=AJ3533, origen=AEP, destino=IAD, horaSalida=1400, horaLlegada=2000, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=450, asientosVendidos=178}
+Viaje{fecha=2020-08-04, asientosTotales=450, asientosVendidos=363}
+Viaje{fecha=2020-08-06, asientosTotales=450, asientosVendidos=325}
+Viaje{fecha=2020-08-07, asientosTotales=450, asientosVendidos=175}
+Viaje{fecha=2020-08-13, asientosTotales=450, asientosVendidos=134}
+Viaje{fecha=2020-08-14, asientosTotales=450, asientosVendidos=237}
+Viaje{fecha=2020-08-15, asientosTotales=450, asientosVendidos=125}
+}
+P: Vuelo{codigo=HH6725, origen=MUC, destino=SVO, horaSalida=1600, horaLlegada=1930, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=208}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=325}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=IH3540, origen=AEP, destino=CPT, horaSalida=900, horaLlegada=1300, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=158}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=373}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=265}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=UO0083, origen=BCN, destino=CPT, horaSalida=1500, horaLlegada=1900, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-08, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-17, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=UO5897, origen=BCN, destino=MUC, horaSalida=1200, horaLlegada=1400, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=18}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=133}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=378}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=277}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=164}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=400, asientosVendidos=365}
+}
+P: Vuelo{codigo=AA0023, origen=MDZ, destino=BRC, horaSalida=1800, horaLlegada=1840, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-03, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-13, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-16, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=AA2458, origen=NQN, destino=AEP, horaSalida=800, horaLlegada=1000, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=350, asientosVendidos=154}
+Viaje{fecha=2020-08-03, asientosTotales=350, asientosVendidos=235}
+Viaje{fecha=2020-08-05, asientosTotales=350, asientosVendidos=320}
+Viaje{fecha=2020-08-07, asientosTotales=350, asientosVendidos=123}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=103}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=123}
+}
+P: Vuelo{codigo=AA3254, origen=BRC, destino=AEP, horaSalida=1900, horaLlegada=2115, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=AA5354, origen=USH, destino=AEP, horaSalida=1000, horaLlegada=1300, lista de viajes: Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=138}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-13, asientosTotales=400, asientosVendidos=263}
+Viaje{fecha=2020-08-14, asientosTotales=400, asientosVendidos=135}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=123}
+Viaje{fecha=2020-08-20, asientosTotales=300, asientosVendidos=90}
+}
+
+
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=40235849}, nroTelefono=3532888, domicilio=Linares 2654, nombreApellido=Raul Navarro, fechaNacimiento=1995-12-25}      HI: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=34456678}, nroTelefono=422493, domicilio=Elordi 356, nombreApellido=Manuel Torres, fechaNacimiento=1983-05-12}      HD: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=35625343}, nroTelefono=65623, domicilio=Marie 3235, nombreApellido=Silvia Marengo, fechaNacimiento=1956-10-23}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=34456678}, nroTelefono=422493, domicilio=Elordi 356, nombreApellido=Manuel Torres, fechaNacimiento=1983-05-12}      HI: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=31234543}, nroTelefono=34335, domicilio=Anaya 356, nombreApellido=Raul Perez, fechaNacimiento=1968-02-29}      HD: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=35433435}, nroTelefono=43465, domicilio=Anaya 368, nombreApellido=Malena Gonzalez, fechaNacimiento=1973-06-02}
+P: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=35625343}, nroTelefono=65623, domicilio=Marie 3235, nombreApellido=Silvia Marengo, fechaNacimiento=1956-10-23}      HI: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=43358829}, nroTelefono=8378909, domicilio=Anaya 250, nombreApellido=Jeremias Barahona, fechaNacimiento=1998-05-15}      HD: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=90018338}, nroTelefono=23544, domicilio=Callejon Bello 3, nombreApellido=Matias Jones, fechaNacimiento=2001-05-23}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=31234543}, nroTelefono=34335, domicilio=Anaya 356, nombreApellido=Raul Perez, fechaNacimiento=1968-02-29}      HI: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=26878787}, nroTelefono=54653, domicilio=Roca 23, nombreApellido=Manuela Caras, fechaNacimiento=1956-12-12}      HD: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=33353246}, nroTelefono=3435889, domicilio=San Martin 8, nombreApellido=Anais Bolivares, fechaNacimiento=1979-01-26}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=35433435}, nroTelefono=43465, domicilio=Anaya 368, nombreApellido=Malena Gonzalez, fechaNacimiento=1973-06-02}      HI: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=34888877}, nroTelefono=52353, domicilio=Belgrano 6531, nombreApellido=Sasha Gonzalez, fechaNacimiento=1985-02-12}      HD: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=38898923}, nroTelefono=54889, domicilio=Ceferino 3857, nombreApellido=Magnus Carlsen, fechaNacimiento=1992-05-26}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=43358829}, nroTelefono=8378909, domicilio=Anaya 250, nombreApellido=Jeremias Barahona, fechaNacimiento=1998-05-15}      HI: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=42343435}, nroTelefono=35889, domicilio=Moreno 388, nombreApellido=Alejandro Ramirez, fechaNacimiento=2001-10-01}      HD: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=23512334}, nroTelefono=23546, domicilio=Av Higgins 38, nombreApellido=Cristobal Torres, fechaNacimiento=1980-02-12}
+P: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=90018338}, nroTelefono=23544, domicilio=Callejon Bello 3, nombreApellido=Matias Jones, fechaNacimiento=2001-05-23}      HI: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=78992173}, nroTelefono=23435, domicilio=Gin-Gins 298, nombreApellido=Maya Nakamura, fechaNacimiento=1988-02-13}      HD: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=98989873}, nroTelefono=3543, domicilio=Lenin 643, nombreApellido=Alexander Grischuk, fechaNacimiento=1998-12-22}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=26878787}, nroTelefono=54653, domicilio=Roca 23, nombreApellido=Manuela Caras, fechaNacimiento=1956-12-12}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=33353246}, nroTelefono=3435889, domicilio=San Martin 8, nombreApellido=Anais Bolivares, fechaNacimiento=1979-01-26}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=34888877}, nroTelefono=52353, domicilio=Belgrano 6531, nombreApellido=Sasha Gonzalez, fechaNacimiento=1985-02-12}      HD: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=35388881}, nroTelefono=655657, domicilio=Callejon de Creide 356, nombreApellido=Violeta Rivas, fechaNacimiento=1984-06-22}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=38898923}, nroTelefono=54889, domicilio=Ceferino 3857, nombreApellido=Magnus Carlsen, fechaNacimiento=1992-05-26}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=42343435}, nroTelefono=35889, domicilio=Moreno 388, nombreApellido=Alejandro Ramirez, fechaNacimiento=2001-10-01}
+P: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=23512334}, nroTelefono=23546, domicilio=Av Higgins 38, nombreApellido=Cristobal Torres, fechaNacimiento=1980-02-12}      HI: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=58893353}, nroTelefono=422493, domicilio=Los Saltos 888, nombreApellido=Martina Beraldo, fechaNacimiento=1983-03-03}
+P: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=78992173}, nroTelefono=23435, domicilio=Gin-Gins 298, nombreApellido=Maya Nakamura, fechaNacimiento=1988-02-13}
+P: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=98989873}, nroTelefono=3543, domicilio=Lenin 643, nombreApellido=Alexander Grischuk, fechaNacimiento=1998-12-22}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=35388881}, nroTelefono=655657, domicilio=Callejon de Creide 356, nombreApellido=Violeta Rivas, fechaNacimiento=1984-06-22}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=58893353}, nroTelefono=422493, domicilio=Los Saltos 888, nombreApellido=Martina Beraldo, fechaNacimiento=1983-03-03}
+
+
+
+ClavePersona{tipoDni=DNI, numeroDni=43358829}Pasaje{nroAsiento=2, vuelo=AA0023, fecha=2020-08-23, estado=pendiente}
+Pasaje{nroAsiento=88, vuelo=AA0023, fecha=2020-01-05, estado=volado}
+Pasaje{nroAsiento=78, vuelo=AA3542, fecha=2020-05-15, estado=volado}
+Pasaje{nroAsiento=2, vuelo=AA0237, fecha=2019-06-12, estado=volado}
+Pasaje{nroAsiento=2, vuelo=AA5354, fecha=2019-03-14, estado=cancelado}
+Pasaje{nroAsiento=23, vuelo=AA7876, fecha=2020-09-18, estado=pendiente}
+Pasaje{nroAsiento=63, vuelo=AA7876, fecha=2020-02-19, estado=volado}
+Pasaje{nroAsiento=25, vuelo=AA7876, fecha=2020-09-13, estado=pendiente}
+Pasaje{nroAsiento=25, vuelo=AA5354, fecha=2020-02-14, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=34888877}Pasaje{nroAsiento=68, vuelo=AA0023, fecha=2020-02-02, estado=volado}
+Pasaje{nroAsiento=63, vuelo=AA0023, fecha=2020-04-01, estado=volado}
+Pasaje{nroAsiento=23, vuelo=AA0023, fecha=2020-03-12, estado=volado}
+Pasaje{nroAsiento=1, vuelo=AA0023, fecha=2020-04-10, estado=volado}
+Pasaje{nroAsiento=35, vuelo=AA3254, fecha=2020-08-10, estado=volado}
+Pasaje{nroAsiento=53, vuelo=AA5354, fecha=2020-09, estado=pendiente}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=38898923}Pasaje{nroAsiento=35, vuelo=AA0237, fecha=2020-05-06, estado=cancelado}
+Pasaje{nroAsiento=65, vuelo=AA0237, fecha=2020-04-07, estado=cancelado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=35388881}Pasaje{nroAsiento=1, vuelo=AA0023, fecha=2020-05-29, estado=volado}
+Pasaje{nroAsiento=2, vuelo=IL8869, fecha=2020-02-24, estado=volado}
+Pasaje{nroAsiento=55, vuelo=UO3490, fecha=2020-04-22, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=34456678}Pasaje{nroAsiento=25, vuelo=AA2458, fecha=2020-08-10, estado=volado}
+Pasaje{nroAsiento=43, vuelo=AA2458, fecha=2020-05-11, estado=cancelado}
+Pasaje{nroAsiento=56, vuelo=AA2458, fecha=2019-06-12, estado=volado}
+Pasaje{nroAsiento=10, vuelo=AA8782, fecha=2020-09-14, estado=pendiente}
+
+
+ClavePersona{tipoDni=Pasaporte, numeroDni=90018338}Pasaje{nroAsiento=33, vuelo=AA3254, fecha=2020-10-02, estado=pendiente}
+Pasaje{nroAsiento=35, vuelo=IH3540, fecha=2020-01-05, estado=volado}
+Pasaje{nroAsiento=64, vuelo=AJ3533, fecha=2020-05-22, estado=volado}
+Pasaje{nroAsiento=2, vuelo=AA2908, fecha=2020-06-15, estado=volado}
+Pasaje{nroAsiento=2, vuelo=UO0083, fecha=2020-03-13, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=33353246}Pasaje{nroAsiento=69, vuelo=AA2908, fecha=2020-01-28, estado=volado}
+Pasaje{nroAsiento=125, vuelo=AA2908, fecha=2020-01-6, estado=volado}
+Pasaje{nroAsiento=263, vuelo=AA2908, fecha=2020-05-23, estado=volado}
+Pasaje{nroAsiento=92, vuelo=AA2908, fecha=2020-03-26, estado=volado}
+Pasaje{nroAsiento=65, vuelo=AA8782, fecha=2019-09-04, estado=cancelado}
+Pasaje{nroAsiento=98, vuelo=AA8782, fecha=2019-11-23, estado=cancelado}
+Pasaje{nroAsiento=293, vuelo=AA8782, fecha=2019-12-02, estado=volado}
+Pasaje{nroAsiento=235, vuelo=AA8782, fecha=2020-01-06, estado=volado}
+Pasaje{nroAsiento=388, vuelo=AA3542, fecha=2020-04-05, estado=volado}
+Pasaje{nroAsiento=388, vuelo=AA3542, fecha=2020-04-21, estado=volado}
+
+
+ClavePersona{tipoDni=Pasaporte, numeroDni=78992173}Pasaje{nroAsiento=33, vuelo=AJ3233, fecha=2020-07-12, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=35433435}Pasaje{nroAsiento=93, vuelo=AA5354, fecha=2020-09-05, estado=pendiente}
+Pasaje{nroAsiento=72, vuelo=AA5354, fecha=2020-08-03, estado=volado}
+Pasaje{nroAsiento=78, vuelo=AA5354, fecha=2020-03-03, estado=volado}
+
+
+ClavePersona{tipoDni=Pasaporte, numeroDni=35625343}Pasaje{nroAsiento=23, vuelo=AJ3533, fecha=2020-05-02, estado=volado}
+Pasaje{nroAsiento=12, vuelo=IL8869, fecha=2020-01-09, estado=volado}
+Pasaje{nroAsiento=45, vuelo=IL8869, fecha=2020-05-11, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=26878787}Pasaje{nroAsiento=238, vuelo=AA3542, fecha=2020-05-23, estado=volado}
+Pasaje{nroAsiento=235, vuelo=AA3542, fecha=2020-09-23, estado=pendiente}
+Pasaje{nroAsiento=22, vuelo=AA3542, fecha=2020-10-25, estado=pendiente}
+Pasaje{nroAsiento=235, vuelo=AA3542, fecha=2020-07-15, estado=volado}
+Pasaje{nroAsiento=13, vuelo=AA3542, fecha=2020-01-15, estado=volado}
+Pasaje{nroAsiento=35, vuelo=AA7876, fecha=2020-02-09, estado=volado}
+Pasaje{nroAsiento=32, vuelo=AA7876, fecha=2019-12-20, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=58893353}Pasaje{nroAsiento=3, vuelo=HH6725, fecha=2019-12-22, estado=volado}
+Pasaje{nroAsiento=54, vuelo=AJ3233, fecha=2019-11-22, estado=volado}
+Pasaje{nroAsiento=99, vuelo=IH3412, fecha=2020-01-22, estado=volado}
+Pasaje{nroAsiento=103, vuelo=IH3540, fecha=2020-02-22, estado=volado}
+Pasaje{nroAsiento=103, vuelo=AJ3533, fecha=2020-03-22, estado=volado}
+Pasaje{nroAsiento=12, vuelo=AA3458, fecha=2020-04-22, estado=cancelado}
+Pasaje{nroAsiento=1, vuelo=AA3254, fecha=2020-05-22, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=40235849}Pasaje{nroAsiento=5, vuelo=AA8782, fecha=2020-08-25, estado=pendiente}
+Pasaje{nroAsiento=6, vuelo=AA3254, fecha=2020-07-21, estado=volado}
+Pasaje{nroAsiento=25, vuelo=AA2458, fecha=2020-06-12, estado=volado}
+
+
+ClavePersona{tipoDni=Pasaporte, numeroDni=23512334}Pasaje{nroAsiento=123, vuelo=UO5897, fecha=2020-03-15, estado=volado}
+Pasaje{nroAsiento=112, vuelo=UO3490, fecha=2020-01-19, estado=volado}
+Pasaje{nroAsiento=124, vuelo=UO5897, fecha=2020-06-22, estado=volado}
+Pasaje{nroAsiento=123, vuelo=UO0083, fecha=2020-02-23, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=42343435}Pasaje{nroAsiento=98, vuelo=AA7876, fecha=2020-01-23, estado=volado}
+Pasaje{nroAsiento=122, vuelo=AA7876, fecha=2020-02-01, estado=volado}
+Pasaje{nroAsiento=153, vuelo=AA0237, fecha=2020-12-29, estado=pendiente}
+Pasaje{nroAsiento=253, vuelo=AA0023, fecha=2020-08-22, estado=pendiente}
+
+
+ClavePersona{tipoDni=Pasaporte, numeroDni=98989873}Pasaje{nroAsiento=34, vuelo=HH6725, fecha=2020-01-02, estado=volado}
+Pasaje{nroAsiento=23, vuelo=HH6725, fecha=2020-01-06, estado=volado}
+Pasaje{nroAsiento=54, vuelo=AJ3233, fecha=2020-09-02, estado=pendiente}
+Pasaje{nroAsiento=134, vuelo=AJ3233, fecha=2020-02-21, estado=cancelado}
+Pasaje{nroAsiento=2, vuelo=AJ3233, fecha=2020-07-23, estado=pendiente}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=31234543}Pasaje{nroAsiento=354, vuelo=AA2458, fecha=2019-03-12, estado=volado}
+Pasaje{nroAsiento=12, vuelo=AA2458, fecha=2020-06-02, estado=cancelado}
+Pasaje{nroAsiento=23, vuelo=AA2458, fecha=2020-05-01, estado=volado}
+Pasaje{nroAsiento=35, vuelo=AA0237, fecha=2020-07-15, estado=volado}
+Pasaje{nroAsiento=54, vuelo=AA0237, fecha=2020-10-02, estado=pendiente}
+
+
+
+Nodo: Aeropuerto{nombreAeronautico=MUC, ciudad=Munich, nroTelefono=498997500}  enlazado a: Aeropuerto{nombreAeronautico=BCN, ciudad=Barcelona, nroTelefono=34913211000} con etiqueta: 200      , Aeropuerto{nombreAeronautico=SVO, ciudad=Moscu, nroTelefono=74955786565} con etiqueta: 330      , 
+Nodo: Aeropuerto{nombreAeronautico=CPT, ciudad=Ciudad del Cabo, nroTelefono=27219371200}  enlazado a: Aeropuerto{nombreAeronautico=BOM, ciudad=Mumbai, nroTelefono=912266851010} con etiqueta: 380      , Aeropuerto{nombreAeronautico=BCN, ciudad=Barcelona, nroTelefono=34913211000} con etiqueta: 400      , Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 400      , 
+Nodo: Aeropuerto{nombreAeronautico=ADL, ciudad=Adelaide, nroTelefono=61883089211}  enlazado a: Aeropuerto{nombreAeronautico=BOM, ciudad=Mumbai, nroTelefono=912266851010} con etiqueta: 500      , 
+Nodo: Aeropuerto{nombreAeronautico=BOM, ciudad=Mumbai, nroTelefono=912266851010}  enlazado a: Aeropuerto{nombreAeronautico=CPT, ciudad=Ciudad del Cabo, nroTelefono=27219371200} con etiqueta: 380      , Aeropuerto{nombreAeronautico=SVO, ciudad=Moscu, nroTelefono=74955786565} con etiqueta: 270      , Aeropuerto{nombreAeronautico=ADL, ciudad=Adelaide, nroTelefono=61883089211} con etiqueta: 500      , 
+Nodo: Aeropuerto{nombreAeronautico=SVO, ciudad=Moscu, nroTelefono=74955786565}  enlazado a: Aeropuerto{nombreAeronautico=MUC, ciudad=Munich, nroTelefono=498997500} con etiqueta: 330      , Aeropuerto{nombreAeronautico=BOM, ciudad=Mumbai, nroTelefono=912266851010} con etiqueta: 270      , 
+Nodo: Aeropuerto{nombreAeronautico=IAD, ciudad=Washington DC, nroTelefono=17035722700}  enlazado a: Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 600      , Aeropuerto{nombreAeronautico=BCN, ciudad=Barcelona, nroTelefono=34913211000} con etiqueta: 500      , 
+Nodo: Aeropuerto{nombreAeronautico=BCN, ciudad=Barcelona, nroTelefono=34913211000}  enlazado a: Aeropuerto{nombreAeronautico=IAD, ciudad=Washington DC, nroTelefono=17035722700} con etiqueta: 500      , Aeropuerto{nombreAeronautico=MUC, ciudad=Munich, nroTelefono=498997500} con etiqueta: 200      , Aeropuerto{nombreAeronautico=CPT, ciudad=Ciudad del Cabo, nroTelefono=27219371200} con etiqueta: 400      , Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 700      , 
+Nodo: Aeropuerto{nombreAeronautico=CRD, ciudad=Comodoro Rivadavia, nroTelefono=02974548190}  enlazado a: Aeropuerto{nombreAeronautico=BRC, ciudad=San Carlos de Bariloche, nroTelefono=02944405016} con etiqueta: 40      , Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 40      , 
+Nodo: Aeropuerto{nombreAeronautico=USH, ciudad=Ushuaia, nroTelefono=02901431232}  enlazado a: Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 300      , 
+Nodo: Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762}  enlazado a: Aeropuerto{nombreAeronautico=IAD, ciudad=Washington DC, nroTelefono=17035722700} con etiqueta: 600      , Aeropuerto{nombreAeronautico=BCN, ciudad=Barcelona, nroTelefono=34913211000} con etiqueta: 700      , Aeropuerto{nombreAeronautico=CPT, ciudad=Ciudad del Cabo, nroTelefono=27219371200} con etiqueta: 400      , Aeropuerto{nombreAeronautico=NQN, ciudad=Neuquen, nroTelefono=02994440448} con etiqueta: 200      , Aeropuerto{nombreAeronautico=COR, ciudad=Cordoba, nroTelefono=03514750881} con etiqueta: 100      , Aeropuerto{nombreAeronautico=MDZ, ciudad=Mendoza, nroTelefono=02615206000} con etiqueta: 200      , Aeropuerto{nombreAeronautico=BRC, ciudad=San Carlos de Bariloche, nroTelefono=02944405016} con etiqueta: 215      , Aeropuerto{nombreAeronautico=USH, ciudad=Ushuaia, nroTelefono=02901431232} con etiqueta: 300      , Aeropuerto{nombreAeronautico=CRD, ciudad=Comodoro Rivadavia, nroTelefono=02974548190} con etiqueta: 40      , 
+Nodo: Aeropuerto{nombreAeronautico=COR, ciudad=Cordoba, nroTelefono=03514750881}  enlazado a: Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 100      , Aeropuerto{nombreAeronautico=MDZ, ciudad=Mendoza, nroTelefono=02615206000} con etiqueta: 85      , 
+Nodo: Aeropuerto{nombreAeronautico=BRC, ciudad=San Carlos de Bariloche, nroTelefono=02944405016}  enlazado a: Aeropuerto{nombreAeronautico=CRD, ciudad=Comodoro Rivadavia, nroTelefono=02974548190} con etiqueta: 40      , Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 215      , Aeropuerto{nombreAeronautico=MDZ, ciudad=Mendoza, nroTelefono=02615206000} con etiqueta: 40      , 
+Nodo: Aeropuerto{nombreAeronautico=MDZ, ciudad=Mendoza, nroTelefono=02615206000}  enlazado a: Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 200      , Aeropuerto{nombreAeronautico=COR, ciudad=Cordoba, nroTelefono=03514750881} con etiqueta: 85      , Aeropuerto{nombreAeronautico=BRC, ciudad=San Carlos de Bariloche, nroTelefono=02944405016} con etiqueta: 40      , 
+Nodo: Aeropuerto{nombreAeronautico=NQN, ciudad=Neuquen, nroTelefono=02994440448}  enlazado a: Aeropuerto{nombreAeronautico=AEP, ciudad=Ciudad de Buenos Aires, nroTelefono=080099967762} con etiqueta: 200      , 
+
+P: Vuelo{codigo=AJ9270, origen=BOM, destino=CPT, horaSalida=1520, horaLlegada=1900, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=268}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=133}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=175}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HI: Vuelo{codigo=AA7876, origen=BRC, destino=CRD, horaSalida=1500, horaLlegada=1540, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=86}
+Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=332}
+Viaje{fecha=2020-08-08, asientosTotales=400, asientosVendidos=255}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=213}
+Viaje{fecha=2020-08-19, asientosTotales=300, asientosVendidos=122}
+}      HD: Vuelo{codigo=IL8869, origen=BCN, destino=AEP, horaSalida=500, horaLlegada=1200, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=200, asientosVendidos=108}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=323}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=75}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=175}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=257}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=AA7876, origen=BRC, destino=CRD, horaSalida=1500, horaLlegada=1540, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=86}
+Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=332}
+Viaje{fecha=2020-08-08, asientosTotales=400, asientosVendidos=255}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=213}
+Viaje{fecha=2020-08-19, asientosTotales=300, asientosVendidos=122}
+}      HI: Vuelo{codigo=AA2908, origen=COR, destino=AEP, horaSalida=1300, horaLlegada=1400, lista de viajes: Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=40}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=343}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=325}
+Viaje{fecha=2020-08-08, asientosTotales=400, asientosVendidos=235}
+Viaje{fecha=2020-08-10, asientosTotales=400, asientosVendidos=154}
+Viaje{fecha=2020-08-12, asientosTotales=300, asientosVendidos=234}
+Viaje{fecha=2020-08-14, asientosTotales=300, asientosVendidos=192}
+}      HD: Vuelo{codigo=AJ3233, origen=SVO, destino=BOM, horaSalida=1230, horaLlegada=1500, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=200, asientosVendidos=108}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=362}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-11, asientosTotales=200, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=IL8869, origen=BCN, destino=AEP, horaSalida=500, horaLlegada=1200, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=200, asientosVendidos=108}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=323}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=75}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=175}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=257}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HI: Vuelo{codigo=IH3412, origen=BOM, destino=ADL, horaSalida=1500, horaLlegada=2000, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=138}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=133}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=376}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HD: Vuelo{codigo=UO3490, origen=BCN, destino=IAD, horaSalida=1000, horaLlegada=1500, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=200, asientosVendidos=8}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=233}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=335}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=135}
+Viaje{fecha=2020-08-15, asientosTotales=400, asientosVendidos=37}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=167}
+}
+P: Vuelo{codigo=AA2908, origen=COR, destino=AEP, horaSalida=1300, horaLlegada=1400, lista de viajes: Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=40}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=343}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=325}
+Viaje{fecha=2020-08-08, asientosTotales=400, asientosVendidos=235}
+Viaje{fecha=2020-08-10, asientosTotales=400, asientosVendidos=154}
+Viaje{fecha=2020-08-12, asientosTotales=300, asientosVendidos=234}
+Viaje{fecha=2020-08-14, asientosTotales=300, asientosVendidos=192}
+}      HI: Vuelo{codigo=AA0237, origen=MDZ, destino=COR, horaSalida=1630, horaLlegada=1715, lista de viajes: Viaje{fecha=2020-08-03, asientosTotales=400, asientosVendidos=133}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=365}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=365}
+Viaje{fecha=2020-08-10, asientosTotales=400, asientosVendidos=265}
+Viaje{fecha=2020-08-14, asientosTotales=400, asientosVendidos=165}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=275}
+Viaje{fecha=2020-08-20, asientosTotales=300, asientosVendidos=165}
+}      HD: Vuelo{codigo=AA3542, origen=CRD, destino=AEP, horaSalida=1300, horaLlegada=1340, lista de viajes: Viaje{fecha=2020-08-05, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-13, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=AJ3233, origen=SVO, destino=BOM, horaSalida=1230, horaLlegada=1500, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=200, asientosVendidos=108}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=362}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-11, asientosTotales=200, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HI: Vuelo{codigo=AA8782, origen=MDZ, destino=AEP, horaSalida=1500, horaLlegada=1700, lista de viajes: Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=40}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=373}
+Viaje{fecha=2020-08-10, asientosTotales=400, asientosVendidos=365}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=215}
+Viaje{fecha=2020-08-13, asientosTotales=400, asientosVendidos=174}
+Viaje{fecha=2020-08-12, asientosTotales=300, asientosVendidos=284}
+Viaje{fecha=2020-08-14, asientosTotales=300, asientosVendidos=122}
+}      HD: Vuelo{codigo=AJ3533, origen=AEP, destino=IAD, horaSalida=1400, horaLlegada=2000, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=450, asientosVendidos=178}
+Viaje{fecha=2020-08-04, asientosTotales=450, asientosVendidos=363}
+Viaje{fecha=2020-08-06, asientosTotales=450, asientosVendidos=325}
+Viaje{fecha=2020-08-07, asientosTotales=450, asientosVendidos=175}
+Viaje{fecha=2020-08-13, asientosTotales=450, asientosVendidos=134}
+Viaje{fecha=2020-08-14, asientosTotales=450, asientosVendidos=237}
+Viaje{fecha=2020-08-15, asientosTotales=450, asientosVendidos=125}
+}
+P: Vuelo{codigo=IH3412, origen=BOM, destino=ADL, horaSalida=1500, horaLlegada=2000, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=138}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=133}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=376}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HI: Vuelo{codigo=HH6725, origen=MUC, destino=SVO, horaSalida=1600, horaLlegada=1930, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=208}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=325}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HD: Vuelo{codigo=IH3540, origen=AEP, destino=CPT, horaSalida=900, horaLlegada=1300, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=158}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=373}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=265}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=UO3490, origen=BCN, destino=IAD, horaSalida=1000, horaLlegada=1500, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=200, asientosVendidos=8}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=233}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=335}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=135}
+Viaje{fecha=2020-08-15, asientosTotales=400, asientosVendidos=37}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=167}
+}      HI: Vuelo{codigo=UO0083, origen=BCN, destino=CPT, horaSalida=1500, horaLlegada=1900, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-08, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-17, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HD: Vuelo{codigo=UO5897, origen=BCN, destino=MUC, horaSalida=1200, horaLlegada=1400, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=18}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=133}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=378}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=277}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=164}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=400, asientosVendidos=365}
+}
+P: Vuelo{codigo=AA0237, origen=MDZ, destino=COR, horaSalida=1630, horaLlegada=1715, lista de viajes: Viaje{fecha=2020-08-03, asientosTotales=400, asientosVendidos=133}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=365}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=365}
+Viaje{fecha=2020-08-10, asientosTotales=400, asientosVendidos=265}
+Viaje{fecha=2020-08-14, asientosTotales=400, asientosVendidos=165}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=275}
+Viaje{fecha=2020-08-20, asientosTotales=300, asientosVendidos=165}
+}      HI: Vuelo{codigo=AA0023, origen=MDZ, destino=BRC, horaSalida=1800, horaLlegada=1840, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-03, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-13, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-16, asientosTotales=300, asientosVendidos=165}
+}      HD: Vuelo{codigo=AA2458, origen=NQN, destino=AEP, horaSalida=800, horaLlegada=1000, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=350, asientosVendidos=154}
+Viaje{fecha=2020-08-03, asientosTotales=350, asientosVendidos=235}
+Viaje{fecha=2020-08-05, asientosTotales=350, asientosVendidos=320}
+Viaje{fecha=2020-08-07, asientosTotales=350, asientosVendidos=123}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=103}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=123}
+}
+P: Vuelo{codigo=AA3542, origen=CRD, destino=AEP, horaSalida=1300, horaLlegada=1340, lista de viajes: Viaje{fecha=2020-08-05, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-13, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HI: Vuelo{codigo=AA3254, origen=BRC, destino=AEP, horaSalida=1900, horaLlegada=2115, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}      HD: Vuelo{codigo=AA5354, origen=USH, destino=AEP, horaSalida=1000, horaLlegada=1300, lista de viajes: Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=138}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-13, asientosTotales=400, asientosVendidos=263}
+Viaje{fecha=2020-08-14, asientosTotales=400, asientosVendidos=135}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=123}
+Viaje{fecha=2020-08-20, asientosTotales=300, asientosVendidos=90}
+}
+P: Vuelo{codigo=AA8782, origen=MDZ, destino=AEP, horaSalida=1500, horaLlegada=1700, lista de viajes: Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=40}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=373}
+Viaje{fecha=2020-08-10, asientosTotales=400, asientosVendidos=365}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=215}
+Viaje{fecha=2020-08-13, asientosTotales=400, asientosVendidos=174}
+Viaje{fecha=2020-08-12, asientosTotales=300, asientosVendidos=284}
+Viaje{fecha=2020-08-14, asientosTotales=300, asientosVendidos=122}
+}
+P: Vuelo{codigo=AJ3533, origen=AEP, destino=IAD, horaSalida=1400, horaLlegada=2000, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=450, asientosVendidos=178}
+Viaje{fecha=2020-08-04, asientosTotales=450, asientosVendidos=363}
+Viaje{fecha=2020-08-06, asientosTotales=450, asientosVendidos=325}
+Viaje{fecha=2020-08-07, asientosTotales=450, asientosVendidos=175}
+Viaje{fecha=2020-08-13, asientosTotales=450, asientosVendidos=134}
+Viaje{fecha=2020-08-14, asientosTotales=450, asientosVendidos=237}
+Viaje{fecha=2020-08-15, asientosTotales=450, asientosVendidos=125}
+}
+P: Vuelo{codigo=HH6725, origen=MUC, destino=SVO, horaSalida=1600, horaLlegada=1930, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=208}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=325}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=234}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=IH3540, origen=AEP, destino=CPT, horaSalida=900, horaLlegada=1300, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=158}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=373}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=265}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=UO0083, origen=BCN, destino=CPT, horaSalida=1500, horaLlegada=1900, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-08, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-17, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=UO5897, origen=BCN, destino=MUC, horaSalida=1200, horaLlegada=1400, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=18}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=133}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=378}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=277}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=164}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=400, asientosVendidos=365}
+}
+P: Vuelo{codigo=AA0023, origen=MDZ, destino=BRC, horaSalida=1800, horaLlegada=1840, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-03, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-13, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-16, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=AA2458, origen=NQN, destino=AEP, horaSalida=800, horaLlegada=1000, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=350, asientosVendidos=154}
+Viaje{fecha=2020-08-03, asientosTotales=350, asientosVendidos=235}
+Viaje{fecha=2020-08-05, asientosTotales=350, asientosVendidos=320}
+Viaje{fecha=2020-08-07, asientosTotales=350, asientosVendidos=123}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=103}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=123}
+}
+P: Vuelo{codigo=AA3254, origen=BRC, destino=AEP, horaSalida=1900, horaLlegada=2115, lista de viajes: Viaje{fecha=2020-08-01, asientosTotales=400, asientosVendidos=108}
+Viaje{fecha=2020-08-04, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-06, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-09, asientosTotales=400, asientosVendidos=275}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=134}
+Viaje{fecha=2020-08-15, asientosTotales=300, asientosVendidos=237}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=165}
+}
+P: Vuelo{codigo=AA5354, origen=USH, destino=AEP, horaSalida=1000, horaLlegada=1300, lista de viajes: Viaje{fecha=2020-08-02, asientosTotales=400, asientosVendidos=138}
+Viaje{fecha=2020-08-07, asientosTotales=400, asientosVendidos=333}
+Viaje{fecha=2020-08-11, asientosTotales=400, asientosVendidos=375}
+Viaje{fecha=2020-08-13, asientosTotales=400, asientosVendidos=263}
+Viaje{fecha=2020-08-14, asientosTotales=400, asientosVendidos=135}
+Viaje{fecha=2020-08-17, asientosTotales=300, asientosVendidos=123}
+Viaje{fecha=2020-08-20, asientosTotales=300, asientosVendidos=90}
+}
+
+
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=40235849}, nroTelefono=3532888, domicilio=Linares 2654, nombreApellido=Raul Navarro, fechaNacimiento=1995-12-25}      HI: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=34456678}, nroTelefono=422493, domicilio=Elordi 356, nombreApellido=Manuel Torres, fechaNacimiento=1983-05-12}      HD: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=35625343}, nroTelefono=65623, domicilio=Marie 3235, nombreApellido=Silvia Marengo, fechaNacimiento=1956-10-23}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=34456678}, nroTelefono=422493, domicilio=Elordi 356, nombreApellido=Manuel Torres, fechaNacimiento=1983-05-12}      HI: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=31234543}, nroTelefono=34335, domicilio=Anaya 356, nombreApellido=Raul Perez, fechaNacimiento=1968-02-29}      HD: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=35433435}, nroTelefono=43465, domicilio=Anaya 368, nombreApellido=Malena Gonzalez, fechaNacimiento=1973-06-02}
+P: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=35625343}, nroTelefono=65623, domicilio=Marie 3235, nombreApellido=Silvia Marengo, fechaNacimiento=1956-10-23}      HI: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=43358829}, nroTelefono=8378909, domicilio=Anaya 250, nombreApellido=Jeremias Barahona, fechaNacimiento=1998-05-15}      HD: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=90018338}, nroTelefono=23544, domicilio=Callejon Bello 3, nombreApellido=Matias Jones, fechaNacimiento=2001-05-23}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=31234543}, nroTelefono=34335, domicilio=Anaya 356, nombreApellido=Raul Perez, fechaNacimiento=1968-02-29}      HI: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=26878787}, nroTelefono=54653, domicilio=Roca 23, nombreApellido=Manuela Caras, fechaNacimiento=1956-12-12}      HD: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=33353246}, nroTelefono=3435889, domicilio=San Martin 8, nombreApellido=Anais Bolivares, fechaNacimiento=1979-01-26}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=35433435}, nroTelefono=43465, domicilio=Anaya 368, nombreApellido=Malena Gonzalez, fechaNacimiento=1973-06-02}      HI: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=34888877}, nroTelefono=52353, domicilio=Belgrano 6531, nombreApellido=Sasha Gonzalez, fechaNacimiento=1985-02-12}      HD: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=38898923}, nroTelefono=54889, domicilio=Ceferino 3857, nombreApellido=Magnus Carlsen, fechaNacimiento=1992-05-26}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=43358829}, nroTelefono=8378909, domicilio=Anaya 250, nombreApellido=Jeremias Barahona, fechaNacimiento=1998-05-15}      HI: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=42343435}, nroTelefono=35889, domicilio=Moreno 388, nombreApellido=Alejandro Ramirez, fechaNacimiento=2001-10-01}      HD: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=23512334}, nroTelefono=23546, domicilio=Av Higgins 38, nombreApellido=Cristobal Torres, fechaNacimiento=1980-02-12}
+P: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=90018338}, nroTelefono=23544, domicilio=Callejon Bello 3, nombreApellido=Matias Jones, fechaNacimiento=2001-05-23}      HI: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=78992173}, nroTelefono=23435, domicilio=Gin-Gins 298, nombreApellido=Maya Nakamura, fechaNacimiento=1988-02-13}      HD: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=98989873}, nroTelefono=3543, domicilio=Lenin 643, nombreApellido=Alexander Grischuk, fechaNacimiento=1998-12-22}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=26878787}, nroTelefono=54653, domicilio=Roca 23, nombreApellido=Manuela Caras, fechaNacimiento=1956-12-12}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=33353246}, nroTelefono=3435889, domicilio=San Martin 8, nombreApellido=Anais Bolivares, fechaNacimiento=1979-01-26}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=34888877}, nroTelefono=52353, domicilio=Belgrano 6531, nombreApellido=Sasha Gonzalez, fechaNacimiento=1985-02-12}      HD: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=35388881}, nroTelefono=655657, domicilio=Callejon de Creide 356, nombreApellido=Violeta Rivas, fechaNacimiento=1984-06-22}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=38898923}, nroTelefono=54889, domicilio=Ceferino 3857, nombreApellido=Magnus Carlsen, fechaNacimiento=1992-05-26}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=42343435}, nroTelefono=35889, domicilio=Moreno 388, nombreApellido=Alejandro Ramirez, fechaNacimiento=2001-10-01}
+P: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=23512334}, nroTelefono=23546, domicilio=Av Higgins 38, nombreApellido=Cristobal Torres, fechaNacimiento=1980-02-12}      HI: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=58893353}, nroTelefono=422493, domicilio=Los Saltos 888, nombreApellido=Martina Beraldo, fechaNacimiento=1983-03-03}
+P: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=78992173}, nroTelefono=23435, domicilio=Gin-Gins 298, nombreApellido=Maya Nakamura, fechaNacimiento=1988-02-13}
+P: Cliente{clave=ClavePersona{tipoDni=Pasaporte, numeroDni=98989873}, nroTelefono=3543, domicilio=Lenin 643, nombreApellido=Alexander Grischuk, fechaNacimiento=1998-12-22}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=35388881}, nroTelefono=655657, domicilio=Callejon de Creide 356, nombreApellido=Violeta Rivas, fechaNacimiento=1984-06-22}
+P: Cliente{clave=ClavePersona{tipoDni=DNI, numeroDni=58893353}, nroTelefono=422493, domicilio=Los Saltos 888, nombreApellido=Martina Beraldo, fechaNacimiento=1983-03-03}
+
+
+
+ClavePersona{tipoDni=DNI, numeroDni=43358829}Pasaje{nroAsiento=2, vuelo=AA0023, fecha=2020-08-23, estado=pendiente}
+Pasaje{nroAsiento=88, vuelo=AA0023, fecha=2020-01-05, estado=volado}
+Pasaje{nroAsiento=78, vuelo=AA3542, fecha=2020-05-15, estado=volado}
+Pasaje{nroAsiento=2, vuelo=AA0237, fecha=2019-06-12, estado=volado}
+Pasaje{nroAsiento=2, vuelo=AA5354, fecha=2019-03-14, estado=cancelado}
+Pasaje{nroAsiento=23, vuelo=AA7876, fecha=2020-09-18, estado=pendiente}
+Pasaje{nroAsiento=63, vuelo=AA7876, fecha=2020-02-19, estado=volado}
+Pasaje{nroAsiento=25, vuelo=AA7876, fecha=2020-09-13, estado=pendiente}
+Pasaje{nroAsiento=25, vuelo=AA5354, fecha=2020-02-14, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=34888877}Pasaje{nroAsiento=68, vuelo=AA0023, fecha=2020-02-02, estado=volado}
+Pasaje{nroAsiento=63, vuelo=AA0023, fecha=2020-04-01, estado=volado}
+Pasaje{nroAsiento=23, vuelo=AA0023, fecha=2020-03-12, estado=volado}
+Pasaje{nroAsiento=1, vuelo=AA0023, fecha=2020-04-10, estado=volado}
+Pasaje{nroAsiento=35, vuelo=AA3254, fecha=2020-08-10, estado=volado}
+Pasaje{nroAsiento=53, vuelo=AA5354, fecha=2020-09, estado=pendiente}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=38898923}Pasaje{nroAsiento=35, vuelo=AA0237, fecha=2020-05-06, estado=cancelado}
+Pasaje{nroAsiento=65, vuelo=AA0237, fecha=2020-04-07, estado=cancelado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=35388881}Pasaje{nroAsiento=1, vuelo=AA0023, fecha=2020-05-29, estado=volado}
+Pasaje{nroAsiento=2, vuelo=IL8869, fecha=2020-02-24, estado=volado}
+Pasaje{nroAsiento=55, vuelo=UO3490, fecha=2020-04-22, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=34456678}Pasaje{nroAsiento=25, vuelo=AA2458, fecha=2020-08-10, estado=volado}
+Pasaje{nroAsiento=43, vuelo=AA2458, fecha=2020-05-11, estado=cancelado}
+Pasaje{nroAsiento=56, vuelo=AA2458, fecha=2019-06-12, estado=volado}
+Pasaje{nroAsiento=10, vuelo=AA8782, fecha=2020-09-14, estado=pendiente}
+
+
+ClavePersona{tipoDni=Pasaporte, numeroDni=90018338}Pasaje{nroAsiento=33, vuelo=AA3254, fecha=2020-10-02, estado=pendiente}
+Pasaje{nroAsiento=35, vuelo=IH3540, fecha=2020-01-05, estado=volado}
+Pasaje{nroAsiento=64, vuelo=AJ3533, fecha=2020-05-22, estado=volado}
+Pasaje{nroAsiento=2, vuelo=AA2908, fecha=2020-06-15, estado=volado}
+Pasaje{nroAsiento=2, vuelo=UO0083, fecha=2020-03-13, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=33353246}Pasaje{nroAsiento=69, vuelo=AA2908, fecha=2020-01-28, estado=volado}
+Pasaje{nroAsiento=125, vuelo=AA2908, fecha=2020-01-6, estado=volado}
+Pasaje{nroAsiento=263, vuelo=AA2908, fecha=2020-05-23, estado=volado}
+Pasaje{nroAsiento=92, vuelo=AA2908, fecha=2020-03-26, estado=volado}
+Pasaje{nroAsiento=65, vuelo=AA8782, fecha=2019-09-04, estado=cancelado}
+Pasaje{nroAsiento=98, vuelo=AA8782, fecha=2019-11-23, estado=cancelado}
+Pasaje{nroAsiento=293, vuelo=AA8782, fecha=2019-12-02, estado=volado}
+Pasaje{nroAsiento=235, vuelo=AA8782, fecha=2020-01-06, estado=volado}
+Pasaje{nroAsiento=388, vuelo=AA3542, fecha=2020-04-05, estado=volado}
+Pasaje{nroAsiento=388, vuelo=AA3542, fecha=2020-04-21, estado=volado}
+
+
+ClavePersona{tipoDni=Pasaporte, numeroDni=78992173}Pasaje{nroAsiento=33, vuelo=AJ3233, fecha=2020-07-12, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=35433435}Pasaje{nroAsiento=93, vuelo=AA5354, fecha=2020-09-05, estado=pendiente}
+Pasaje{nroAsiento=72, vuelo=AA5354, fecha=2020-08-03, estado=volado}
+Pasaje{nroAsiento=78, vuelo=AA5354, fecha=2020-03-03, estado=volado}
+
+
+ClavePersona{tipoDni=Pasaporte, numeroDni=35625343}Pasaje{nroAsiento=23, vuelo=AJ3533, fecha=2020-05-02, estado=volado}
+Pasaje{nroAsiento=12, vuelo=IL8869, fecha=2020-01-09, estado=volado}
+Pasaje{nroAsiento=45, vuelo=IL8869, fecha=2020-05-11, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=26878787}Pasaje{nroAsiento=238, vuelo=AA3542, fecha=2020-05-23, estado=volado}
+Pasaje{nroAsiento=235, vuelo=AA3542, fecha=2020-09-23, estado=pendiente}
+Pasaje{nroAsiento=22, vuelo=AA3542, fecha=2020-10-25, estado=pendiente}
+Pasaje{nroAsiento=235, vuelo=AA3542, fecha=2020-07-15, estado=volado}
+Pasaje{nroAsiento=13, vuelo=AA3542, fecha=2020-01-15, estado=volado}
+Pasaje{nroAsiento=35, vuelo=AA7876, fecha=2020-02-09, estado=volado}
+Pasaje{nroAsiento=32, vuelo=AA7876, fecha=2019-12-20, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=58893353}Pasaje{nroAsiento=3, vuelo=HH6725, fecha=2019-12-22, estado=volado}
+Pasaje{nroAsiento=54, vuelo=AJ3233, fecha=2019-11-22, estado=volado}
+Pasaje{nroAsiento=99, vuelo=IH3412, fecha=2020-01-22, estado=volado}
+Pasaje{nroAsiento=103, vuelo=IH3540, fecha=2020-02-22, estado=volado}
+Pasaje{nroAsiento=103, vuelo=AJ3533, fecha=2020-03-22, estado=volado}
+Pasaje{nroAsiento=12, vuelo=AA3458, fecha=2020-04-22, estado=cancelado}
+Pasaje{nroAsiento=1, vuelo=AA3254, fecha=2020-05-22, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=40235849}Pasaje{nroAsiento=5, vuelo=AA8782, fecha=2020-08-25, estado=pendiente}
+Pasaje{nroAsiento=6, vuelo=AA3254, fecha=2020-07-21, estado=volado}
+Pasaje{nroAsiento=25, vuelo=AA2458, fecha=2020-06-12, estado=volado}
+
+
+ClavePersona{tipoDni=Pasaporte, numeroDni=23512334}Pasaje{nroAsiento=123, vuelo=UO5897, fecha=2020-03-15, estado=volado}
+Pasaje{nroAsiento=112, vuelo=UO3490, fecha=2020-01-19, estado=volado}
+Pasaje{nroAsiento=124, vuelo=UO5897, fecha=2020-06-22, estado=volado}
+Pasaje{nroAsiento=123, vuelo=UO0083, fecha=2020-02-23, estado=volado}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=42343435}Pasaje{nroAsiento=98, vuelo=AA7876, fecha=2020-01-23, estado=volado}
+Pasaje{nroAsiento=122, vuelo=AA7876, fecha=2020-02-01, estado=volado}
+Pasaje{nroAsiento=153, vuelo=AA0237, fecha=2020-12-29, estado=pendiente}
+Pasaje{nroAsiento=253, vuelo=AA0023, fecha=2020-08-22, estado=pendiente}
+
+
+ClavePersona{tipoDni=Pasaporte, numeroDni=98989873}Pasaje{nroAsiento=34, vuelo=HH6725, fecha=2020-01-02, estado=volado}
+Pasaje{nroAsiento=23, vuelo=HH6725, fecha=2020-01-06, estado=volado}
+Pasaje{nroAsiento=54, vuelo=AJ3233, fecha=2020-09-02, estado=pendiente}
+Pasaje{nroAsiento=134, vuelo=AJ3233, fecha=2020-02-21, estado=cancelado}
+Pasaje{nroAsiento=2, vuelo=AJ3233, fecha=2020-07-23, estado=pendiente}
+
+
+ClavePersona{tipoDni=DNI, numeroDni=31234543}Pasaje{nroAsiento=354, vuelo=AA2458, fecha=2019-03-12, estado=volado}
+Pasaje{nroAsiento=12, vuelo=AA2458, fecha=2020-06-02, estado=cancelado}
+Pasaje{nroAsiento=23, vuelo=AA2458, fecha=2020-05-01, estado=volado}
+Pasaje{nroAsiento=35, vuelo=AA0237, fecha=2020-07-15, estado=volado}
+Pasaje{nroAsiento=54, vuelo=AA0237, fecha=2020-10-02, estado=pendiente}
+
+
+El cliente de clave: ClavePersona{tipoDni=DNI, numeroDni=43358829}  compro el pasaje: Pasaje{nroAsiento=23, vuelo=AA2458, fecha=2020-08-01, estado=pendiente}

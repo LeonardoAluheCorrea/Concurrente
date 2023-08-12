@@ -1,12 +1,12 @@
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.Arrays;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -25,13 +25,51 @@ public class ProblemaEscolar {
     public static void main(String[]args){
         int[][] notas = new int[CANT_ALUMNOS][CANT_ASIGNATURAS];
         int[] mediaAlumnos = new int[CANT_ALUMNOS];
-        int[] mediaAsignaturas = new int[CANT_ASIGNATURAS];
+        Double[] mediaAsignaturas = new Double[CANT_ASIGNATURAS];
         double mediaClase;
         String[] alumnos = new String[CANT_ALUMNOS];
         leerNotas(notas,alumnos);
         mediaAlumnos = calcularMediaAlumnos(notas);
         mediaClase = calcularMediaClase(notas);
         mediaAsignaturas = calcularMediaAsignaturas(notas);
+    }
+    
+    public static void ordenarAlumnosPorMedia(String[]alumno, Double[] nota){
+        //Ordena los alumnos de forma descendiente de acuerdo a sus notas medias
+        /* Se utiliza el metodo de ordenamiento burbuja por su sencillez de implementacion 
+           y buen rendimiento en bajas cantidades de datos
+        */
+        for (int i = 0;i < CANT_ALUMNOS; i++){
+            for (int j = 0; j < CANT_ALUMNOS; j++){
+                if (nota[j] > nota[j+1]){
+                    intercambiar(nota, j, j+1);
+                    intercambiar(alumno, j, j+1);
+                }
+            }
+        }
+    }
+    
+    public static void ordenarAlumnosPorMediaSeleccion(String[]alumno, Double[] nota){
+        //Ordena los alumnos de forma descendiente de acuerdo a sus notas medias
+        /* Se utiliza el metodo de ordenamiento por seleccion 
+           ya que tambien es eficiente para cantidades pequeñas*/
+        int max;
+        for (int i = 0; i < CANT_ALUMNOS; i++){
+            max = i;
+            for (int j = i+1; i < CANT_ASIGNATURAS; j++){
+                if (nota[j] > nota[max])
+                    max = j;
+            }
+            intercambiar(nota,i, max);
+            intercambiar(alumno,i, max);
+        }
+    }
+ 
+    
+    public static void intercambiar(Object [] v, int n, int k){
+        Object aux = v[n];
+        v[n] = v[k];
+        v[k] = aux;
     }
     
     public static void leerNotas(int[][] notas, String[]alumnos) {
@@ -79,8 +117,8 @@ public class ProblemaEscolar {
         return media;
     }
     
-    public static int[] calcularMediaAsignaturas(int[][] notas){
-        int[] media = new int[CANT_ASIGNATURAS];
+    public static Double[] calcularMediaAsignaturas(int[][] notas){
+        Double[] media = new Double[CANT_ASIGNATURAS];
         for (int i = 0; i < CANT_ALUMNOS; i++){
             for (int j = 0; j < CANT_ASIGNATURAS; j++){
                 media[i] = media[i] + notas[j][i];

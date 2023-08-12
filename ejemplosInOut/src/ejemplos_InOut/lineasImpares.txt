@@ -1,0 +1,2 @@
+Podria tener datos de distintos tipos, pero por ahora solo nos interesa que copien
+

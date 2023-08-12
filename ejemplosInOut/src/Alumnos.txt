@@ -1,0 +1,8 @@
+			Matematicas Biologia Informatica Fisica Quimica	
+Leonardo Correa		     9         8         8         2      5
+Juan Perez		     3         3         10        3      5
+Gonzalo Gonzales             7         2         2         9      3
+Esteban Navarro	             8         9         9         9      8  
+Raul Leiva                   8         8         8         8      8
+Jose Cafrune                 8         4         5         4      5
+Esteban Armando              1         8         5         8      8

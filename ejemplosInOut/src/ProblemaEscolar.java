@@ -24,13 +24,13 @@ public class ProblemaEscolar {
     
     public static void main(String[]args){
         int[][] notas = new int[CANT_ALUMNOS][CANT_ASIGNATURAS];
-        int[] mediaAlumnos = new int[CANT_ALUMNOS];
+        Double[] mediaAlumnos = new Double[CANT_ALUMNOS];
         Double[] mediaAsignaturas = new Double[CANT_ASIGNATURAS];
         double mediaClase;
         String[] alumnos = new String[CANT_ALUMNOS];
         leerNotas(notas,alumnos);
         mediaAlumnos = calcularMediaAlumnos(notas);
-        mediaClase = calcularMediaClase(notas);
+        mediaClase = calcularMediaClase(mediaAlumnos);
         mediaAsignaturas = calcularMediaAsignaturas(notas);
     }
     
@@ -106,18 +106,17 @@ public class ProblemaEscolar {
         }
     }
     
-    public static double calcularMediaClase(int[][] notas){
+    public static double calcularMediaClase(Double[] mediaAlumno){
         double media = 0;
         for (int i = 0; i < CANT_ALUMNOS; i++){
-            for (int j = 0; j < CANT_ASIGNATURAS; j++){
-                media = media + notas[i][j];
-            }
+                media = media + mediaAlumno[i];
         }
-        media = media / (CANT_ALUMNOS*CANT_ASIGNATURAS);
+        media = media / CANT_ALUMNOS;
         return media;
     }
     
     public static Double[] calcularMediaAsignaturas(int[][] notas){
+        //Recorremos la matriz de notas por columnas y calculamos el promedio de notas de la asignatura
         Double[] media = new Double[CANT_ASIGNATURAS];
         for (int i = 0; i < CANT_ALUMNOS; i++){
             for (int j = 0; j < CANT_ASIGNATURAS; j++){
@@ -127,8 +126,9 @@ public class ProblemaEscolar {
         return media;
     }
     
-    public static int[] calcularMediaAlumnos(int[][] notas){
-        int[] media = new int[CANT_ALUMNOS];
+    public static Double[] calcularMediaAlumnos(int[][] notas){
+        //Recorremos la matriz de notas por filas y calculamos el promedio de notas del alumno
+        Double[] media = new Double[CANT_ALUMNOS];
         for (int i = 0; i < CANT_ALUMNOS; i++){
             for (int j = 0; j < CANT_ASIGNATURAS; j++){
                 media[i] = media[i] + notas[i][j];

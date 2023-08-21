@@ -1,3 +1,7 @@
+package tp0;
+
+
+
 
 import java.util.Scanner;
 

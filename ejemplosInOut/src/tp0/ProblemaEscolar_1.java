@@ -1,3 +1,7 @@
+package tp0;
+
+
+
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -17,7 +21,7 @@ import java.util.Arrays;
  *
  * @author Leo
  */
-public class ProblemaEscolar {
+public class ProblemaEscolar_1 {
     static final int CANT_ALUMNOS = 7;
     static final int CANT_ASIGNATURAS = 5;
     
@@ -34,7 +38,7 @@ public class ProblemaEscolar {
         mediaAsignaturas = calcularMediaAsignaturas(notas);
     }
     
-    public static void ordenarAlumnosPorMedia(String[]alumno, Double[] nota){
+    public static void ordenarAlumnosPorMediaBurbuja(String[]alumno, Double[] nota){
         //Ordena los alumnos de forma descendiente de acuerdo a sus notas medias
         /* Se utiliza el metodo de ordenamiento burbuja por su sencillez de implementacion 
            y buen rendimiento en bajas cantidades de datos
@@ -94,14 +98,14 @@ public class ProblemaEscolar {
                 }
             }
         } catch (FileNotFoundException ex) {
-            Logger.getLogger(ProblemaEscolar.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(ProblemaEscolar_1.class.getName()).log(Level.SEVERE, null, ex);
         } finally {
             try {
                 lector.close();
                 bufferLector.close();
                 s.close();
             } catch (IOException ex) {
-                Logger.getLogger(ProblemaEscolar.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(ProblemaEscolar_1.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
     }

@@ -4,32 +4,46 @@
  */
 package tp4;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
+
 /**
  *
  * @author Leo
  */
 public class ej1 {
-    public static void main(String[]args){
+    public static void main(String[]args) throws FileNotFoundException, IOException{
+        File output = new File("DatosEjercicio.txt");
+        BufferedWriter escritor = new BufferedWriter(new FileWriter(output));
+        output.createNewFile();
         int f;
         int n = 30;
         double aux;
         double promIt = 0, promRecu = 0;
-        System.out.println("Fibonacci recursivo             Fibonacci iterativo");
+        escritor.write("Fibonacci recursivo             Fibonacci iterativo             Tiempo Teorico");
+        escritor.newLine();
+        escritor.newLine();
         for (int i = 1; i <= 30; i++){
             aux = System.nanoTime(); //Obtenemos el tiempo hasta ahora
             f = fibonacci(i);
             aux = System.nanoTime() - aux; //Restamos al tiempo total el tiempo anterior a ejecutar f
             promRecu = promRecu + aux;
-            System.out.print("f(" + i + ") = " + f + " T = " + aux + "ns          ");
+            escritor.write("f(" + i + ") = " + f + " T = " + aux + "ns          "); //escribimos en el archivo
             //Repetimos para el f iterativo
             aux = System.nanoTime(); 
             f = fibonacciIterativo(i);
             aux = System.nanoTime() - aux;
             promIt = promIt + aux;
-            System.out.println("f(" + i + ") = " + f + " T = " + aux + "ns. Tiempo Teorico = " + (8*i+16)+ "ns");
+            escritor.write("f(" + i + ") = " + f + " T = " + aux + "ns.               " + (8*i+16));
+            escritor.newLine();
         }
-        System.out.println("\n Tiempo recursivo promedio en ns: " + promRecu/n);
-        System.out.println("Tiempo iterativo promedio en ns: " + promIt/n);
+        escritor.write("Tiempo recursivo promedio en ns: " + promRecu/n);
+        escritor.newLine();
+        escritor.write("Tiempo iterativo promedio en ns: " + promIt/n);
+        escritor.close();
     }
 
     public static int fibonacciIterativo(int n) {

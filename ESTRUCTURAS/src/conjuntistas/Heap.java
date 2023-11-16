@@ -19,6 +19,10 @@ public class Heap {
         heap = new Comparable[TAMANIO];
         ultimo = 0;
     }
+
+    public Heap() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     public boolean insertar(Comparable elemento){
         boolean exito;
         exito = false;

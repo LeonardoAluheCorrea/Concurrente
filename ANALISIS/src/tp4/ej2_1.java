@@ -24,12 +24,13 @@ public class ej2_1 {
         ArrayList<int[]> piramide = new ArrayList<int[]>();
         String filePath = System.getProperty("user.dir") + "/src/tp4/Piramide.txt";
         BufferedWriter escritor;
-        int i = 1;
-        int j = 0;
+        int i;
+        int j;
         int cantFilas = 15;
         int[] fila, filaAnterior;
         Scanner scan = new Scanner(new File(filePath));
-        for(i = 0; i < cantFilas; i++){ //Cargamos la piramide
+        
+        for(i = 1; i <= cantFilas; i++){ //Cargamos la piramide
             fila = new int[i];
             for(j = 0; j < i; j++){
                 fila[j] = scan.nextInt();
@@ -41,18 +42,19 @@ public class ej2_1 {
         for(i = 1; i < cantFilas; i++){ //Ahora calculamos la suma del camino maximo hasta todos los nro, el mayor nro de la ultima fila sera la suma del camino maximo
             fila = piramide.get(i);
             filaAnterior = piramide.get(i-1);
-            for (j = i; j < i; j++){
+            for (j = 0; j <= i; j++){
                 sumaCaminoMaximo(filaAnterior, fila, j);
             }
         }
         filePath = System.getProperty("user.dir") + "/src/tp4/PiramideFinal";
         escritor = new BufferedWriter(new FileWriter(filePath));
+        
         for(i = 0; i < cantFilas; i++){ //Escribimos la piramide en un archivo
             fila = piramide.get(i);
             for (int k = 0; k < cantFilas-i; k++){ //Imprimimos 15-i espacios en blanco
                 escritor.write(" ");
             }
-            for(j = 0; j < i; j++){
+            for(j = 0; j <= i; j++){
                 escritor.write(fila[j] + " ");
             }
             escritor.newLine();

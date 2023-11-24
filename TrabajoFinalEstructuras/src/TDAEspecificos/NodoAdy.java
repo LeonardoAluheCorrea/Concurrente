@@ -10,8 +10,8 @@ package TDAEspecificos;
  * @author Leo
  */
 public class NodoAdy {
-    private NodoVert vertice;
-    private NodoAdy sigAdyacente;
+    private NodoVert vertice; //Enlace de lista dinamica de todos los nodos del grafo
+    private NodoAdy sigAdyacente; //Enlace de lista dinamica de nodos adyacentes
     private Object etiqueta;
 
     public NodoAdy(NodoVert vertice, NodoAdy sigAdyacente, Object etiqueta) {

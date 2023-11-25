@@ -16,7 +16,7 @@ public class ArbolBin {
     public ArbolBin (){
         raiz = null;
     }
-    public Lista listarPosorden(){
+    public Lista listarPosOrden(){
         Lista arbol;
         arbol = new Lista();
         posOrdenAux(raiz,arbol);
@@ -30,7 +30,7 @@ public class ArbolBin {
             //El metodo longitud() de la clase Lista es de orden 1 porque se implemento la lista mejorada
         }
     }
-    public Lista listarInorden(){
+    public Lista listarInOrden(){
         Lista lista;
         lista = new Lista();
         inOrdenAux(raiz,lista);
@@ -44,7 +44,7 @@ public class ArbolBin {
             inOrdenAux(n.getDerecho(),arbol);
         }
     }
-    public Lista listarPreorden (){
+    public Lista listarPreOrden (){
         Lista arbol;
         arbol = new Lista();
         preOrdenAux(raiz,arbol);
@@ -98,7 +98,7 @@ public class ArbolBin {
     public boolean insertar(Object elemNuevo, Object elemPadre, char lugar) {
         boolean exito = true;
         if (this.raiz == null) {
-            //Se el arbol no tiene raiz ahi colocaremos el nuevo elemento
+            //Si el arbol no tiene raiz ahi colocaremos el nuevo elemento
             this.raiz = new NodoArbol(elemNuevo, null, null);
         } 
         else {
@@ -130,6 +130,7 @@ public class ArbolBin {
         return raiz == null;
     }
     public Object padre(Object elemento){
+        //Devuelve el padre de un elemento del arbol
         Object res;
         res = padreAux(raiz,elemento);
         return res;
@@ -163,6 +164,7 @@ public class ArbolBin {
         return res;
     }
     public int nivel(Object elemento){
+        //Devuelve el nivel de un elemento del arbol
         int res;
         res = nivelAux(raiz,elemento);
         return res;

@@ -5,7 +5,6 @@
 package trabajofinalanalisis;
 
 import TDAEspecificos.GrafoEtiquetado;
-import lineales.dinamicas.Lista;
 
 /**
  *

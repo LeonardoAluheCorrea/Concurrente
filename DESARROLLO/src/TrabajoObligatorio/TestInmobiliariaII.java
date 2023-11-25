@@ -111,6 +111,7 @@ public class TestInmobiliariaII {
             System.out.println("No existen casas disponibles para alquilar");
         else
             System.out.println("La casa disponible para alquilar con la mayor superficie es:"+buscarCasaMayorSuperficie(a,0,n,null).toString());
+        Propiedad[2].codigo;
     }
     
     public static Propiedad buscarCasaMayorSuperficie(Propiedad[]a, int pos,int n, Propiedad mayorSup){

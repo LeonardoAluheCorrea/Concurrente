@@ -6,6 +6,7 @@
 package TrabajoPractico05;
 import Utiles.TecladoIn;
 import ClasesTP5.Especie;
+import java.util.Random;
 /**
  *
  * @author Leo
@@ -24,7 +25,9 @@ public class Problema01TestEspecie {
         e1.setNombre(nombreEspecie); 
         System.out.println("Ingrese la segunda especie");
         nombreEspecie = TecladoIn.readLine();
+        
         e2.setNombre(nombreEspecie);
+        
         System.out.println("Ingrese la poblacion de la primera especie");
         poblacion = TecladoIn.readLineInt();
         e1.setPoblacion(poblacion);

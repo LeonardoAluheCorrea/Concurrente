@@ -10,7 +10,7 @@ package TrabajoObligatorio;
  * @author Leo
  */
 public class Propiedad {
-    private int codigo;
+    public int codigo;
     private char tipo;
     private String direccion;
     private int cantAmbientes;

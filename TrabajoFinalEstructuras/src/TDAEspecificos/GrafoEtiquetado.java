@@ -124,10 +124,11 @@ public class GrafoEtiquetado {
         //Encuentra el camino con arcos menos costosos entre el origen y el destino
         NodoVert ori, dest;
         Lista camino;
+        int[] c = new int[2];
         camino = new Lista();
         ori = ubicarVertice(origen);
         dest = ubicarVertice(destino);
-        camino = caminoMasRapidoAux(ori, dest, new Lista(), camino, new int[2]);
+        camino = caminoMasRapidoAux(ori, dest, new Lista(), camino, c);
         return camino;
     }
     
@@ -164,6 +165,18 @@ public class GrafoEtiquetado {
         return caminoMasCorto;
     }
     
+     public int costoCaminoMasRapido(Object origen, Object destino){
+        NodoVert ori, dest;
+        Lista camino;
+        int[] costo = new int[2];
+        camino = new Lista();
+        ori = ubicarVertice(origen);
+        dest = ubicarVertice(destino);
+        caminoMasRapidoAux(ori, dest, new Lista(), camino, costo); // El algoritmo de Dijstra implementado guarda el costo del camino mas corto en un arreglo
+        return costo[1]; //Retornamos el costo del camino mas corto obtenido por caminoMasRapidoAux que es una implmentacion del algoritmo de Dijkstra
+    }
+    
+    
     public boolean existeVertice(Object buscado){
         //Verifica si existe un vertice con el elemento buscado
         //Llamamos a ubicarVertice, si nos devuelve un null es porque el elemento no existe
@@ -196,7 +209,7 @@ public class GrafoEtiquetado {
         return exito;
     }
     
-    public boolean insertarArco(Object origen, Object destino, Object etiqueta){
+    public boolean insertarArco(Object origen, Object destino, Object etiqueta, boolean esArcoDoble){
         boolean exito, continuar, igualOrigen, igualDestino;
         NodoVert auxA, auxB;
         auxA = inicio;
@@ -225,23 +238,27 @@ public class GrafoEtiquetado {
                 auxA.setPrimerAdy(nuevoOrigen);
             }
             else{
-                while (nuevoOrigen.getSigAdyacente() != null){
+                auxA.setPrimerAdy(new NodoAdy(auxB,nuevoOrigen,etiqueta));
+                /*while (nuevoOrigen.getSigAdyacente() != null){
                     nuevoOrigen = nuevoOrigen.getSigAdyacente();
                 }
                 nuevoOrigen.setSigAdyacente(new NodoAdy(auxB,null,etiqueta));
+                */
             }
-            //Ahora creamos el arco desde el destino al origen, pero solo si origen y destino son distintos vertices
-            if (!origen.equals(destino)){
+            //Ahora creamos el arco desde el destino al origen, pero solo si origen y destino son distintos vertices y si el parametro "esDoble" es T
+            if (esArcoDoble && !origen.equals(destino)){
                 nuevoDestino = auxB.getPrimerAdy();
                 if (nuevoDestino == null){
                     nuevoDestino = new NodoAdy(auxA,null,etiqueta);
                     auxB.setPrimerAdy(nuevoDestino);
                 }
                 else{
-                    while (nuevoDestino.getSigAdyacente() != null){
+                    auxB.setPrimerAdy(new NodoAdy(auxA,nuevoDestino,etiqueta));
+                    /*while (nuevoDestino.getSigAdyacente() != null){
                         nuevoDestino = nuevoDestino.getSigAdyacente();
                     }
                     nuevoDestino.setSigAdyacente(new NodoAdy(auxA,null,etiqueta));
+                    */
                 }
             }
             exito = true;
@@ -249,7 +266,7 @@ public class GrafoEtiquetado {
         return exito;
     }
     
-    public boolean eliminarArco(Object origen, Object destino, Object etiqueta){
+    public boolean eliminarArco(Object origen, Object destino, Object etiqueta, boolean esArcoDoble){
         boolean exito;
         NodoVert aux;
         aux = inicio;
@@ -279,19 +296,20 @@ public class GrafoEtiquetado {
                     auxAdyB.setSigAdyacente(auxAdyA.getSigAdyacente());
                 }
             }
-            //Repetimos el proceso para el nodo destino
-            auxAdyA = aux.getPrimerAdy();
-            if (auxAdyA.getVertice().getElemento().equals(origen)){
-                aux.setPrimerAdy(auxAdyA.getSigAdyacente());
-            }
-            else{
-                auxAdyB = aux.getPrimerAdy();
-                while (auxAdyA != null && !(auxAdyA.getVertice().getElemento().equals(origen) && auxAdyA.getEtiqueta().equals(etiqueta))){
-                    auxAdyB = auxAdyA;
-                    auxAdyA = auxAdyA.getSigAdyacente();
-                }
-                if (auxAdyA != null){
-                    auxAdyB.setSigAdyacente(auxAdyA.getSigAdyacente());
+            //Repetimos el proceso para el nodo destino si el parametro "esArcoDoble" es true
+            if (esArcoDoble) {
+                auxAdyA = aux.getPrimerAdy();
+                if (auxAdyA.getVertice().getElemento().equals(origen)) {
+                    aux.setPrimerAdy(auxAdyA.getSigAdyacente());
+                } else {
+                    auxAdyB = aux.getPrimerAdy();
+                    while (auxAdyA != null && !(auxAdyA.getVertice().getElemento().equals(origen) && auxAdyA.getEtiqueta().equals(etiqueta))) {
+                        auxAdyB = auxAdyA;
+                        auxAdyA = auxAdyA.getSigAdyacente();
+                    }
+                    if (auxAdyA != null) {
+                        auxAdyB.setSigAdyacente(auxAdyA.getSigAdyacente());
+                    }
                 }
             }
             exito = true;
@@ -365,6 +383,7 @@ public class GrafoEtiquetado {
         return aux;
     }    
     
+    @Override
     public String toString(){
         String grafo;
         NodoVert aux;

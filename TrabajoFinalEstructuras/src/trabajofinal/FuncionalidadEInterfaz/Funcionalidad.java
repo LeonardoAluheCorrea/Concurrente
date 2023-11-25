@@ -50,8 +50,7 @@ public class Funcionalidad {
                 //Eliminamos el vuelo
                 exito = tablaVuelos.eliminar(codigo);
                 //Luego eliminamos las rutas que lo representan en el mapa de aeropuertos
-                exito = exito && mapa.eliminarArco(new Aeropuerto(porEliminar.getOrigen()),
-                        new Aeropuerto(porEliminar.getDestino()), porEliminar.getHoraLlegada() - porEliminar.getHoraSalida());
+                exito = exito && mapa.eliminarArco(new Aeropuerto(porEliminar.getOrigen()), new Aeropuerto(porEliminar.getDestino()), porEliminar.getHoraLlegada() - porEliminar.getHoraSalida(), true);
                 //Si se elimino correctamente damos aviso al log
                 if(exito){
                     String aviso = "Se elimino el vuelo: " + porEliminar.toString() + "\n";
@@ -163,8 +162,8 @@ public class Funcionalidad {
                 //Nos fijamos si el vuelo fue modificado
                 if (modificado){
                     //Como fue modificado entonces debemos eliminar la ruta vieja, añadir la nueva y actualizar la duracion del vuelo
-                    mapa.eliminarArco(new Aeropuerto(nombreOrigenViejo), new Aeropuerto(nombreDestinoViejo), horaLlegadaVieja - horaSalidaVieja);
-                    mapa.insertarArco(new Aeropuerto(porModificar.getOrigen()), new Aeropuerto(porModificar.getDestino()), duracionVuelo);
+                    mapa.eliminarArco(new Aeropuerto(nombreOrigenViejo), new Aeropuerto(nombreDestinoViejo), horaLlegadaVieja - horaSalidaVieja, true);
+                    mapa.insertarArco(new Aeropuerto(porModificar.getOrigen()), new Aeropuerto(porModificar.getDestino()), duracionVuelo,true);
                     //Avisamos la modificacion por el log
                     String aviso = "El vuelo: " + new Vuelo(porModificar.getCodigo(), nombreOrigenViejo, nombreDestinoViejo, horaSalidaVieja, horaLlegadaVieja)
                             + "  fue modificado. Nuevo vuelo: " + porModificar.toString() + "\n";
@@ -257,7 +256,7 @@ public class Funcionalidad {
         //Debemos calcular la duracion aproximada del vuelo para colocarla en la etiqueta del mapa de aeropuertos
         int duracionVuelo;
         duracionVuelo = nuevo.getHoraLlegada() - nuevo.getHoraSalida();
-        exito = mapa.insertarArco(new Aeropuerto(origen), new Aeropuerto(destino), duracionVuelo);
+        exito = mapa.insertarArco(new Aeropuerto(origen), new Aeropuerto(destino), duracionVuelo, true);
         //Si el vuelo se añadio a mapa con exito ahora lo añadimos a la tabla de vuelos
         if (exito){
             //Llamamos otro mensaje para añadir los viajes de cada dia y avisamos en el log
@@ -1184,7 +1183,7 @@ public class Funcionalidad {
         //Insertamos el vuelo en la tabla de vuelos, y si se hace exitosamente insertamos el arco que lo representa en el mapa de aeropuertos
         if(tablaVuelos.insertar(codigo, nuevo)){
             //Insertamos el arco que representa al vuelo si no existe ya
-            mapa.insertarArco(new Aeropuerto(origen), new Aeropuerto(destino), llegada - salida);
+            mapa.insertarArco(new Aeropuerto(origen), new Aeropuerto(destino), llegada - salida, true);
         }
     }
     

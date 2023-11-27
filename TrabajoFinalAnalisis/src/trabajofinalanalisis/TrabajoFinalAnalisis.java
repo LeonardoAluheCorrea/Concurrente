@@ -4,7 +4,7 @@
  */
 package trabajofinalanalisis;
 
-import TDAEspecificos.GrafoEtiquetado;
+import Utiles.GrafoEtiquetado;
 
 /**
  *

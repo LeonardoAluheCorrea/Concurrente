@@ -174,7 +174,7 @@ public class GrafoEtiquetado {
         ori = ubicarVertice(origen);
         dest = ubicarVertice(destino);
         caminoMasRapidoAux(ori, dest, new Lista(), camino, costo); // El algoritmo implementado guarda el costo del camino mas corto en un arreglo
-        return costo[1]; //Retornamos el costo del camino mas corto obtenido por caminoMasRapidoAux que es una implmentacion del algoritmo de Dijkstra
+        return costo[1]; //Retornamos el costo del camino mas corto obtenido por caminoMasRapidoAux
     }
     
     

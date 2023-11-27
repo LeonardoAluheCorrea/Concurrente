@@ -5,6 +5,9 @@
 package trabajofinalanalisis;
 
 import Utiles.GrafoEtiquetado;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
 
 /**
  *
@@ -15,10 +18,19 @@ public class TrabajoFinalAnalisis {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
         GrafoEtiquetado grafoDeFrobenius;
-        int[] A = new int[]{6,9,20};
+        int[] A = new int[100];
         int maxCosto = -1;
+        Scanner scan = new Scanner(new File(System.getProperty("user.dir") + "\\src\\trabajofinalanalisis\\nros.txt"));
+        int c = 0;
+        //Cargamos nuestro conjunto de nros coprimos A usando un archivo de texto
+        while (scan.hasNext()){
+            A[c] = scan.nextInt();
+            c++;
+        }
+        scan.close();
+        
         //Construimos el grafo circulante y lo mostramos
         grafoDeFrobenius = construirGrafoDeFrobenius(A);
         System.out.println(grafoDeFrobenius.toString());

@@ -20,7 +20,7 @@ public class TrabajoFinalAnalisis {
      */
     public static void main(String[] args) throws FileNotFoundException {
         GrafoEtiquetado grafoDeFrobenius;
-        int[] A = new int[100];
+        int[] A = new int[3]; //Tener cuidado de acomodar el tamañap del arreglo a la cantidad de nros
         int maxCosto = -1;
         Scanner scan = new Scanner(new File(System.getProperty("user.dir") + "\\src\\trabajofinalanalisis\\nros.txt"));
         int c = 0;

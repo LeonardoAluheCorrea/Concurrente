@@ -5,8 +5,10 @@
 package trabajofinalanalisis;
 
 import Utiles.GrafoEtiquetado;
+import Utiles.NodoVert;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.HashMap;
 import java.util.Scanner;
 
 /**
@@ -20,10 +22,11 @@ public class TrabajoFinalAnalisis {
      */
     public static void main(String[] args) throws FileNotFoundException {
         GrafoEtiquetado grafoDeFrobenius;
-        int[] A = new int[3]; //Tener cuidado de acomodar el tamañap del arreglo a la cantidad de nros
+        int[] A = new int[100]; //Tener cuidado de acomodar el tamaño del arreglo a la cantidad de nros
         int maxCosto = -1;
         Scanner scan = new Scanner(new File(System.getProperty("user.dir") + "\\src\\trabajofinalanalisis\\nros.txt"));
         int c = 0;
+        double tiempo;
         //Cargamos nuestro conjunto de nros coprimos A usando un archivo de texto
         while (scan.hasNext()){
             A[c] = scan.nextInt();
@@ -34,11 +37,26 @@ public class TrabajoFinalAnalisis {
         //Construimos el grafo circulante y lo mostramos
         grafoDeFrobenius = construirGrafoDeFrobenius(A);
         System.out.println(grafoDeFrobenius.toString());
+        tiempo = System.currentTimeMillis();
+        System.out.println("Tiempo de construir el grafo en ms: " + tiempo);
         
-        //Ahora buscamos el camino menos costoso desde 0 hasta todos los otros vertices y nos quedamos con el mas costoso de todos
+        //Primero buscamos los caminos menos costosos desde 0 hasta todos los otros vertices con Dijstra
+        HashMap<NodoVert,Integer> caminosMasCortos = (HashMap) grafoDeFrobenius.dijkstra(0);
+        for(HashMap.Entry entry: caminosMasCortos.entrySet()){
+            maxCosto = maximo(maxCosto,(int)entry.getValue());
+        }
+        tiempo = System.currentTimeMillis() - tiempo;
+        System.out.println("Tiempo usando Dijkstra en ms: " + tiempo);
+        System.out.println("El nro de Frobenius es: " + (maxCosto - A[0]));
+        
+        //Ahora buscamos con el algoritmo propio
+        maxCosto = -1;
+        tiempo = System.currentTimeMillis();
         for (int i = 1; i < A[0]; i++){
             maxCosto = maximo(maxCosto,grafoDeFrobenius.costoCaminoMasRapido(0,i));
         }
+        tiempo = System.currentTimeMillis() - tiempo;
+        System.out.println("Tiempo usando el algoritmo propio en ms: " + tiempo);
         System.out.println("El nro de Frobenius es: " + (maxCosto - A[0]));
     }
     

@@ -5,6 +5,8 @@
  */
 package TDAEspecificos;
 
+import java.util.HashMap;
+import java.util.Map;
 import lineales.dinamicas.Cola;
 import lineales.dinamicas.Lista;
 
@@ -18,6 +20,64 @@ public class GrafoEtiquetado {
     public GrafoEtiquetado() {
         inicio = null;
     }  
+    
+    
+    public Map dijkstra(Object origen) {
+        //Implementacion del algoritmo de Dijkstra
+        NodoVert v;
+        NodoVert u = ubicarVertice(origen);
+        HashMap<NodoVert, Integer> dist = new HashMap<>();
+        Lista prev = new Lista();
+        Lista Q = new Lista();
+        int alt = 0;
+        if (u != null) {
+            v = inicio;
+            while (v != null) {
+                if (!v.equals(u)){
+                    dist.put(v, 10000);
+                    prev.insertar(v, 1);
+                }
+                Q.insertar(v, 1);
+                v = v.getSigVertice();
+            }
+            dist.put(u, 0);
+
+            while (!Q.esVacia()) {
+                u = verticeMasCercano(dist, Q);
+                Q.eliminar(Q.localizar(u));
+                NodoAdy nodoVecino = u.getPrimerAdy();
+                while (nodoVecino != null) {
+                    if (Q.localizar(nodoVecino.getVertice()) != -1) {
+                        alt = dist.get(u) + (int) nodoVecino.getEtiqueta();
+                        if (alt < dist.get(nodoVecino.getVertice())) {
+                            dist.replace(nodoVecino.getVertice(), alt);
+                            prev.insertar(nodoVecino.getVertice(), 1);
+                        }
+                    }
+                    nodoVecino = nodoVecino.getSigAdyacente();
+                }
+            }
+        }
+        return dist; //Retornar prev si se quiere el camino en lugar de su costo
+    }
+
+    private NodoVert verticeMasCercano(HashMap dist, Lista Q){
+        //Auxiliar para el algoritmo de Dijkstra
+        int n = Q.longitud();
+        NodoVert noVisitadoCercano = (NodoVert) Q.recuperar(1);
+        NodoVert res = noVisitadoCercano;
+        int d = (int) dist.get(noVisitadoCercano);
+        int min = d;
+        for (int i = 2; i <= n; i++){
+            noVisitadoCercano = (NodoVert) Q.recuperar(i);
+            d = (int) dist.get(noVisitadoCercano);
+            if (min > d){
+                res = noVisitadoCercano;
+                min = d;
+            }
+        }
+        return res;
+    }
     
     public boolean tieneArco(Object elemento){
         //Nos indica si el nodo que contiene a elemento esta conectado a algun arco
@@ -165,6 +225,7 @@ public class GrafoEtiquetado {
         return caminoMasCorto;
     }
     
+    
      public int costoCaminoMasRapido(Object origen, Object destino){
         NodoVert ori, dest;
         Lista camino;
@@ -172,8 +233,8 @@ public class GrafoEtiquetado {
         camino = new Lista();
         ori = ubicarVertice(origen);
         dest = ubicarVertice(destino);
-        caminoMasRapidoAux(ori, dest, new Lista(), camino, costo); // El algoritmo de Dijstra implementado guarda el costo del camino mas corto en un arreglo
-        return costo[1]; //Retornamos el costo del camino mas corto obtenido por caminoMasRapidoAux que es una implmentacion del algoritmo de Dijkstra
+        caminoMasRapidoAux(ori, dest, new Lista(), camino, costo); // El algoritmo implementado guarda el costo del camino mas corto en un arreglo
+        return costo[1]; //Retornamos el costo del camino mas corto obtenido por caminoMasRapidoAux
     }
     
     
